@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "generated_at": "2026-08-11T05:02:07+09:00",
+  "generated_at": "2026-08-11T17:31:37+09:00",
   "venues": [
     "平塚",
     "弥彦",
@@ -79,7 +79,7 @@
   },
   "osusume": [
     "202608113507",
-    "202608113409"
+    "202608114802"
   ],
   "races": [
     {
@@ -18561,6 +18561,21 @@
       "formation": [
         {
           "firsts": [
+            1
+          ],
+          "seconds": [
+            2
+          ],
+          "thirds": [
+            3,
+            4,
+            5
+          ],
+          "n_combos": 3,
+          "text": "1-2-345"
+        },
+        {
+          "firsts": [
             2
           ],
           "seconds": [
@@ -18568,27 +18583,10 @@
           ],
           "thirds": [
             3,
-            5,
-            6
-          ],
-          "n_combos": 3,
-          "text": "2-1-356"
-        },
-        {
-          "firsts": [
-            1,
-            2
-          ],
-          "seconds": [
-            2,
-            3
-          ],
-          "thirds": [
-            1,
-            3
+            4
           ],
           "n_combos": 2,
-          "text": "12-23-13"
+          "text": "2-1-34"
         }
       ],
       "entries": [
@@ -18599,7 +18597,7 @@
           "rider_full_name": "國村美留莉",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 26,
           "prefecture": "山口",
@@ -18614,7 +18612,7 @@
           "rider_full_name": "千葉捺美",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "群馬",
@@ -18629,7 +18627,7 @@
           "rider_full_name": "島田優里",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "長崎",
@@ -18644,7 +18642,7 @@
           "rider_full_name": "高崎千賀",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "5-1",
           "journalist_mark": null,
           "age": 32,
           "prefecture": "神奈",
@@ -18659,7 +18657,7 @@
           "rider_full_name": "大谷杏奈",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "6-1",
           "journalist_mark": null,
           "age": 29,
           "prefecture": "大阪",
@@ -18674,7 +18672,7 @@
           "rider_full_name": "佐藤友香",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 45,
           "prefecture": "青森",
@@ -18685,79 +18683,79 @@
       ],
       "predictions": {
         "2": {
-          "probability": 0.7548638208015879,
+          "probability": 0.7548638205882952,
           "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.23342939677338873,
+          "prob_3rd": 0.2519083988543822,
           "predicted_rank": 1.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 −ライン力(加重) +出走数 +ライン総合力 +フィールド平均得点"
         },
         "1": {
-          "probability": 0.7548638211401308,
+          "probability": 0.7548638211225697,
           "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
+          "prob_2nd": 0.22222222409478354,
           "prob_3rd": 0.1433789971831358,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 −ライン力(加重) +フィールド平均得点 +出走数 +ライン総合力"
         },
         "3": {
-          "probability": 0.5764705938416713,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.5028248634815639,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.22222222407861475,
+          "prob_3rd": 0.2519083988543822,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +出走数 +フィールド平均得点"
+          "shap_reason": "−ライン力(加重) +フィールド平均得点 −grade_x_line_str +出走数 +ライン総合力"
         },
         "4": {
-          "probability": 0.6290322643330568,
+          "probability": 0.47619048061246566,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.20212766139971441,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +出走数 −grade_x_line_str +ライン支配率"
+          "shap_reason": "−ライン力(加重) −grade_x_line_str +出走数 +フィールド平均得点 +ライン総合力"
         },
         "5": {
-          "probability": 0.4736842146792251,
+          "probability": 0.2763157920279047,
           "win_probability": 0.07885121081361618,
           "prob_2nd": 0.028735633674361407,
           "prob_3rd": 0.20212766137181012,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン支配率 −得点順位"
+          "shap_reason": "−ライン力(加重) −grade_x_line_str +先頭選手得点 −得点順位 +出走数"
         },
         "6": {
-          "probability": 0.36866359801198323,
+          "probability": 0.15277777963711278,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
+          "prob_2nd": 0.02453987868556026,
           "prob_3rd": 0.08669065463189402,
           "predicted_rank": 6.0,
-          "shap_reason": "−得点順位 −ライン力(加重) −grade_x_line_str +先頭選手得点 +フィールド平均得点"
+          "shap_reason": "−得点順位 −grade_x_line_str −ライン力(加重) +出走数 +フィールド平均得点"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-1-3",
-          "score": 0.0353277783420534
+          "combo": "1-2-4",
+          "score": 0.04827663128542917
         },
         {
           "rank": 2,
-          "combo": "1-2-3",
-          "score": 0.03047449632819513
+          "combo": "2-1-3",
+          "score": 0.04681183742676224
         },
         {
           "rank": 3,
-          "combo": "2-3-1",
-          "score": 0.030034547830412903
+          "combo": "1-2-3",
+          "score": 0.04590223314286469
         },
         {
           "rank": 4,
-          "combo": "2-1-6",
-          "score": 0.027481796402245726
+          "combo": "2-1-4",
+          "score": 0.04205460800701794
         },
         {
           "rank": 5,
-          "combo": "2-1-5",
-          "score": 0.026342606257798683
+          "combo": "1-2-5",
+          "score": 0.03599378782021772
         }
       ]
     },
@@ -18777,45 +18775,58 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  19",
-        "① ██░░░░░░░░  18",
-        "③ ██░░░░░░░░  15",
-        "④ ██░░░░░░░░  15",
-        "⑤ ██░░░░░░░░  15",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░   9"
+        "③①⑥⑦ ██████░░░░  57",
+        "②④⑤　 ████░░░░░░  43"
       ],
-      "rationale": [],
+      "rationale": [
+        "【1】2-4-5 （同上）",
+        "【2】3-1-6　1着(3)：場を支配しやすい強力ライン",
+        "【3】3-1-7 （同上）"
+      ],
       "formation": [
         {
           "firsts": [
             2
           ],
           "seconds": [
-            1,
-            3
+            4
           ],
           "thirds": [
             1,
             3,
-            4
+            5
           ],
-          "n_combos": 4,
-          "text": "2-13-134"
+          "n_combos": 3,
+          "text": "2-4-135"
         },
         {
           "firsts": [
-            1
+            3
           ],
           "seconds": [
-            3,
-            4
+            1
           ],
           "thirds": [
-            2
+            2,
+            4,
+            6,
+            7
           ],
           "n_combos": 4,
-          "text": "1-34=2"
+          "text": "3-1-2467"
+        },
+        {
+          "firsts": [
+            2
+          ],
+          "seconds": [
+            3
+          ],
+          "thirds": [
+            1
+          ],
+          "n_combos": 1,
+          "text": "2-3-1"
         }
       ],
       "entries": [
@@ -18826,7 +18837,7 @@
           "rider_full_name": "高嶋一朗",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 59,
           "prefecture": "岡山",
@@ -18841,7 +18852,7 @@
           "rider_full_name": "布居翼",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 30,
           "prefecture": "和歌",
@@ -18856,7 +18867,7 @@
           "rider_full_name": "野見泰要",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 44,
           "prefecture": "岡山",
@@ -18871,7 +18882,7 @@
           "rider_full_name": "小塚潤",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 47,
           "prefecture": "愛知",
@@ -18886,7 +18897,7 @@
           "rider_full_name": "濱田昭一郎",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 57,
           "prefecture": "鹿児",
@@ -18901,7 +18912,7 @@
           "rider_full_name": "水木裕聡",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "高知",
@@ -18916,7 +18927,7 @@
           "rider_full_name": "南和夫",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-4",
           "journalist_mark": null,
           "age": 50,
           "prefecture": "福岡",
@@ -18926,103 +18937,103 @@
         }
       ],
       "predictions": {
-        "2": {
-          "probability": 0.7548638204420882,
-          "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +得点順位 +ライン総合力 +B回数"
-        },
         "1": {
-          "probability": 0.6923076990815735,
+          "probability": 0.7667805600561307,
           "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 2.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 1.0,
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 +フィールド平均得点 +ライン位置"
         },
         "3": {
-          "probability": 0.5581395400336374,
+          "probability": 0.6290322644794011,
           "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 2.0,
+          "shap_reason": "+ライン支配率 +得点順位 −escape_lead_prob +フィールド平均得点 +ライン位置"
+        },
+        "2": {
+          "probability": 0.5764705941812791,
+          "win_probability": 0.15210671770258463,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +B回数"
-        },
-        "4": {
-          "probability": 0.4736842148422701,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン位置"
+          "shap_reason": "+得点順位 −ライン支配率 +得点偏差 −escape_lead_prob −ライン総合力"
         },
         "6": {
-          "probability": 0.4230769271093714,
+          "probability": 0.5028248636128219,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.14337899719894975,
+          "predicted_rank": 4.0,
+          "shap_reason": "−得点順位 +ライン支配率 −得点偏差×ライン強 −ライン位置 +フィールド平均得点"
+        },
+        "4": {
+          "probability": 0.4230769270860781,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 −得点順位"
+          "shap_reason": "−ライン支配率 +得点偏差 −得点順位 +ラウンド +フィールド平均得点"
         },
         "5": {
-          "probability": 0.30084746089969294,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.20212766137181012,
+          "probability": 0.2250000023103326,
+          "win_probability": 0.08887774597087078,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.1433789971964549,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −grade_x_line_str +先頭選手得点 +ライン総合力 +ライン支配率"
+          "shap_reason": "−ライン支配率 −ライン位置 −得点順位 −得点偏差×ライン強 −Eloレート"
         },
         "7": {
-          "probability": 0.30084746093589976,
+          "probability": 0.10738255169823006,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904162057434,
+          "prob_3rd": 0.06451613061807876,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +ライン支配率 +先頭選手得点 −grade_x_line_str"
+          "shap_reason": "−ライン位置 −得点順位 −得点偏差×ライン強 −ライン強度×3番手 +ライン支配率"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-1-3",
-          "score": 0.02105886861224874
+          "combo": "2-4-5",
+          "score": 0.059620178788049774
         },
         {
           "rank": 2,
-          "combo": "2-3-1",
-          "score": 0.020366060420655897
+          "combo": "3-1-6",
+          "score": 0.05204857127450606
         },
         {
           "rank": 3,
-          "combo": "1-3-2",
-          "score": 0.019410252152167195
+          "combo": "3-1-7",
+          "score": 0.03989910662033147
         },
         {
           "rank": 4,
-          "combo": "1-2-3",
-          "score": 0.019172825382751696
+          "combo": "3-1-2",
+          "score": 0.029708964168798015
         },
         {
           "rank": 5,
-          "combo": "2-1-4",
-          "score": 0.014242377994748597
+          "combo": "2-4-1",
+          "score": 0.020158682247255744
         },
         {
           "rank": 6,
-          "combo": "1-4-2",
-          "score": 0.013207741744148207
+          "combo": "3-1-4",
+          "score": 0.014257802294366148
         },
         {
           "rank": 7,
-          "combo": "1-2-4",
-          "score": 0.013143076513028621
+          "combo": "2-3-1",
+          "score": 0.013992941887324785
         },
         {
           "rank": 8,
-          "combo": "2-3-4",
-          "score": 0.012999123661300249
+          "combo": "2-4-3",
+          "score": 0.013912911147261826
         }
       ]
     },
@@ -19042,59 +19053,33 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  18",
-        "② ██░░░░░░░░  17",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ ██░░░░░░░░  16",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "⑥②①④ ██████░░░░  63",
+        "⑤⑦③　 ████░░░░░░  37"
       ],
-      "rationale": [],
+      "rationale": [
+        "【1】2-6-1　1着(2)：ライン全体で主導権を握れる並び",
+        "【2】1-2-4 （同上）",
+        "【3】2-1-4 （同上）"
+      ],
       "formation": [
         {
           "firsts": [
-            1
+            1,
+            2
           ],
           "seconds": [
-            2,
-            4,
-            5
-          ],
-          "thirds": [
-            2,
-            5
-          ],
-          "n_combos": 4,
-          "text": "1-245-25"
-        },
-        {
-          "firsts": [
-            5
-          ],
-          "seconds": [
-            2,
-            3
-          ],
-          "thirds": [
-            1
-          ],
-          "n_combos": 2,
-          "text": "5-23-1"
-        },
-        {
-          "firsts": [
-            5
-          ],
-          "seconds": [
-            1
-          ],
-          "thirds": [
+            1,
             2,
             6
           ],
-          "n_combos": 2,
-          "text": "5-1-26"
+          "thirds": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "n_combos": 8,
+          "text": "12-126-1246"
         }
       ],
       "entries": [
@@ -19105,7 +19090,7 @@
           "rider_full_name": "矢島一弥",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 40,
           "prefecture": "群馬",
@@ -19120,7 +19105,7 @@
           "rider_full_name": "荒木伸哉",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 47,
           "prefecture": "静岡",
@@ -19135,7 +19120,7 @@
           "rider_full_name": "富安保充",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "愛知",
@@ -19150,7 +19135,7 @@
           "rider_full_name": "大崎智久",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-4",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "青森",
@@ -19165,7 +19150,7 @@
           "rider_full_name": "安藤直希",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 28,
           "prefecture": "京都",
@@ -19180,7 +19165,7 @@
           "rider_full_name": "大関祐也",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "千葉",
@@ -19195,7 +19180,7 @@
           "rider_full_name": "堀僚介",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "大阪",
@@ -19206,102 +19191,102 @@
       ],
       "predictions": {
         "2": {
-          "probability": 0.7548638201833723,
+          "probability": 0.6290322643377285,
           "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 1.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
-        },
-        "5": {
-          "probability": 0.6562500066210196,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 −grade_x_line_str −得点順位"
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 −フィールド逃げ率 +grade_x_line_str"
         },
         "1": {
-          "probability": 0.6290322643508934,
+          "probability": 0.5764705941630803,
           "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.14864865045704678,
+          "prob_3rd": 0.2519083988460868,
+          "predicted_rank": 2.0,
+          "shap_reason": "+得点順位 −ライン位置 +得点偏差×ライン強 +ライン支配率 −フィールド逃げ率"
+        },
+        "5": {
+          "probability": 0.36866359798464204,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.10045662268779419,
+          "prob_3rd": 0.14337899715923547,
           "predicted_rank": 3.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−escape_lead_prob −得点順位 −ライン支配率 −得点偏差×ライン強 +得点偏差"
         },
         "6": {
-          "probability": 0.5764705938004573,
+          "probability": 0.42307692701642413,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
+          "prob_2nd": 0.14864865041810987,
           "prob_3rd": 0.11873351090686485,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 +先頭選手得点 −得点順位 +ライン支配率"
+          "shap_reason": "−得点順位 +ライン支配率 +ライン位置 −得点偏差×ライン強 −escape_lead_prob"
         },
         "3": {
-          "probability": 0.5581395401943304,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.30084746072565516,
+          "win_probability": 0.08887774597087078,
+          "prob_2nd": 0.10045662271702704,
+          "prob_3rd": 0.1433789971964549,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
-        },
-        "4": {
-          "probability": 0.5028248633700532,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン支配率 +ライン総合力"
+          "shap_reason": "−ライン支配率 −ライン位置 −得点偏差×ライン強 +得点偏差 +得点順位"
         },
         "7": {
-          "probability": 0.30084746089006853,
+          "probability": 0.30084746070747,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
+          "prob_2nd": 0.061946904229708825,
           "prob_3rd": 0.08669065463189402,
+          "predicted_rank": 6.0,
+          "shap_reason": "−得点順位 −減衰加重平均着順 −得点偏差×ライン強 +grade_x_line_str −ライン支配率"
+        },
+        "4": {
+          "probability": 0.1333333351179525,
+          "win_probability": 0.08887774597087078,
+          "prob_2nd": 0.10045662271702704,
+          "prob_3rd": 0.14337899720484398,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −得点順位 +先頭選手得点 −grade_x_line_str"
+          "shap_reason": "−ライン位置 −ライン強度×3番手 −得点偏差×ライン強 +得点偏差 −得点順位"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-5",
-          "score": 0.010382933378492038
+          "combo": "2-6-1",
+          "score": 0.047947283576023826
         },
         {
           "rank": 2,
-          "combo": "5-2-1",
-          "score": 0.010355619159263344
+          "combo": "1-2-4",
+          "score": 0.04627328196241414
         },
         {
           "rank": 3,
-          "combo": "1-5-2",
-          "score": 0.009961402260839232
+          "combo": "2-1-4",
+          "score": 0.04603512660183696
         },
         {
           "rank": 4,
-          "combo": "5-1-2",
-          "score": 0.009149472397170675
+          "combo": "2-6-4",
+          "score": 0.04131219221138704
         },
         {
           "rank": 5,
-          "combo": "1-4-2",
-          "score": 0.008938038702190542
+          "combo": "2-1-6",
+          "score": 0.03633226133949065
         },
         {
           "rank": 6,
-          "combo": "1-4-5",
-          "score": 0.008804370270197441
+          "combo": "1-2-6",
+          "score": 0.026941097904684883
         },
         {
           "rank": 7,
-          "combo": "5-1-6",
-          "score": 0.007794366421102461
+          "combo": "1-6-4",
+          "score": 0.01355411388624211
         },
         {
           "rank": 8,
-          "combo": "5-3-1",
-          "score": 0.007749257128161979
+          "combo": "1-6-2",
+          "score": 0.012462393560702079
         }
       ]
     },
@@ -19321,18 +19306,15 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  23",
-        "② ██░░░░░░░░  17",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░   9"
+        "①②⑦ █████░░░░░  51",
+        "⑤⑥　 ██░░░░░░░░  21",
+        "③　　 ██░░░░░░░░  16",
+        "④　　 █░░░░░░░░░  12"
       ],
       "rationale": [
-        "【1】1-2-4 （同上）",
-        "【2】1-4-2 （同上）",
-        "【3】1-2-5　紐(5)：ライン全体で主導権を握れる並び"
+        "【1】1-2-7　1着(1)：所属ラインがレースを制しやすい構成　2着(2)：番手相手に得点で勝る",
+        "【2】1-2-3　紐(3)：所属ラインがレースを制しやすい構成",
+        "【3】2-1-7　番手差し(2)：番手相手に得点で勝る"
       ],
       "formation": [
         {
@@ -19340,16 +19322,16 @@
             1
           ],
           "seconds": [
-            2,
-            4
+            2
           ],
           "thirds": [
-            2,
+            3,
             4,
-            5
+            6,
+            7
           ],
           "n_combos": 4,
-          "text": "1-24-245"
+          "text": "1-2-3467"
         },
         {
           "firsts": [
@@ -19359,11 +19341,13 @@
             1
           ],
           "thirds": [
+            3,
             4,
-            5
+            5,
+            7
           ],
           "n_combos": 4,
-          "text": "2-1=45"
+          "text": "2-1-3457"
         }
       ],
       "entries": [
@@ -19374,7 +19358,7 @@
           "rider_full_name": "松本一志",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 30,
           "prefecture": "宮崎",
@@ -19389,7 +19373,7 @@
           "rider_full_name": "徳吉正治",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "福岡",
@@ -19419,7 +19403,7 @@
           "rider_full_name": "友永龍介",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 35,
           "prefecture": "山口",
@@ -19434,7 +19418,7 @@
           "rider_full_name": "花田雄飛",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 25,
           "prefecture": "愛知",
@@ -19449,7 +19433,7 @@
           "rider_full_name": "南　蓮",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 27,
           "prefecture": "和歌",
@@ -19464,7 +19448,7 @@
           "rider_full_name": "松尾正人",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 55,
           "prefecture": "熊本",
@@ -19475,102 +19459,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.754863820850941,
+          "probability": 0.7548638209849658,
           "win_probability": 0.20178848763578958,
-          "prob_2nd": 0.17553191670587626,
+          "prob_2nd": 0.23342939674538468,
           "prob_3rd": 0.1187335108953236,
           "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 +得点順位 −ライン力(加重) +ライン総合力 −grade_x_line_str"
-        },
-        "5": {
-          "probability": 0.5764705940135582,
-          "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
-        },
-        "4": {
-          "probability": 0.5764705939138048,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +B回数 +ライン総合力"
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 +得点偏差 −escape_lead_prob"
         },
         "2": {
-          "probability": 0.5764705936904345,
+          "probability": 0.7837837918360738,
           "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "prob_2nd": 0.23342939690005848,
+          "prob_3rd": 0.1265822801922005,
+          "predicted_rank": 2.0,
+          "shap_reason": "+ライン支配率 +得点順位 +2番手得点差 +得点偏差 +フィールド平均得点"
         },
         "3": {
-          "probability": 0.44000000408425793,
+          "probability": 0.4736842147423575,
           "win_probability": 0.13697114789882156,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 5.0,
+          "predicted_rank": 3.0,
           "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
         },
-        "6": {
-          "probability": 0.3686635983749656,
+        "5": {
+          "probability": 0.3686635980733869,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.06194690424222757,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 4.0,
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 −escape_lead_prob +ライン総合力"
+        },
+        "4": {
+          "probability": 0.3008474607679837,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.09433962428319621,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 5.0,
+          "shap_reason": "−ライン支配率 +ライン総合力 −grade_x_line_str +ライン位置 −得点偏差×ライン強"
+        },
+        "6": {
+          "probability": 0.3686635979101402,
+          "win_probability": 0.08664107082937327,
+          "prob_2nd": 0.06194690424222757,
+          "prob_3rd": 0.0980392173115737,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −grade_x_line_str −得点順位 +先頭選手得点"
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 +ライン総合力 +ラウンド"
         },
         "7": {
-          "probability": 0.15277777973786655,
+          "probability": 0.300847460813462,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904162057434,
+          "prob_3rd": 0.2519083988738974,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +ライン支配率 +先頭選手得点 −grade_x_line_str"
+          "shap_reason": "+ライン支配率 −得点順位 −得点偏差×ライン強 −ライン位置 −30日間出走数"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-4",
-          "score": 0.028981438816225384
+          "combo": "1-2-7",
+          "score": 0.07975214905934302
         },
         {
           "rank": 2,
-          "combo": "1-4-2",
-          "score": 0.02681926876959588
+          "combo": "1-2-3",
+          "score": 0.058943909061479165
         },
         {
           "rank": 3,
-          "combo": "1-2-5",
-          "score": 0.02435035445194097
+          "combo": "2-1-7",
+          "score": 0.047508144624393435
         },
         {
           "rank": 4,
-          "combo": "1-4-5",
-          "score": 0.021652078378947774
+          "combo": "1-2-6",
+          "score": 0.037094421837512034
         },
         {
           "rank": 5,
-          "combo": "2-1-4",
-          "score": 0.018091466594944882
+          "combo": "1-2-4",
+          "score": 0.03660884761189295
         },
         {
           "rank": 6,
-          "combo": "2-4-1",
-          "score": 0.01700644215619481
+          "combo": "2-1-3",
+          "score": 0.021563385024388017
         },
         {
           "rank": 7,
-          "combo": "2-5-1",
-          "score": 0.015230247081816582
+          "combo": "2-1-4",
+          "score": 0.016319059440696955
         },
         {
           "rank": 8,
           "combo": "2-1-5",
-          "score": 0.014048360720188056
+          "score": 0.016038725172442647
         }
       ]
     },
@@ -19590,49 +19574,59 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  19",
-        "① ██░░░░░░░░  18",
-        "③ ██░░░░░░░░  15",
-        "④ ██░░░░░░░░  15",
-        "⑤ ██░░░░░░░░  15",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░   9"
+        "②①⑦ █████░░░░░  47",
+        "③⑤⑥ ████░░░░░░  42",
+        "④　　 █░░░░░░░░░  11"
       ],
       "rationale": [
-        "【1】1-3-2　1着(1)：実力差がライン強度でさらに際立つ",
-        "【2】3-1-2　2着(1)：実力差がライン強度でさらに際立つ",
-        "【3】3-1-5 （同上）"
+        "【1】2-1-7　1着(2)：高グレードで並びの強さが活きる",
+        "【2】1-2-7 （同上）",
+        "【3】1-7-2 （同上）"
       ],
       "formation": [
         {
           "firsts": [
-            1
+            2
           ],
           "seconds": [
-            3,
-            5
+            1
           ],
           "thirds": [
-            2,
             3,
-            5
+            4,
+            5,
+            7
           ],
           "n_combos": 4,
-          "text": "1-35-235"
+          "text": "2-1-3457"
         },
         {
           "firsts": [
-            3
-          ],
-          "seconds": [
             1
           ],
-          "thirds": [
-            2,
-            5
+          "seconds": [
+            2
           ],
-          "n_combos": 4,
-          "text": "3-1=25"
+          "thirds": [
+            3,
+            5,
+            7
+          ],
+          "n_combos": 3,
+          "text": "1-2-357"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
+            7
+          ],
+          "thirds": [
+            2
+          ],
+          "n_combos": 1,
+          "text": "1-7-2"
         }
       ],
       "entries": [
@@ -19643,7 +19637,7 @@
           "rider_full_name": "大西健士",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 46,
           "prefecture": "神奈",
@@ -19658,7 +19652,7 @@
           "rider_full_name": "山本和瑳",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 25,
           "prefecture": "神奈",
@@ -19673,7 +19667,7 @@
           "rider_full_name": "村瀬大和",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 24,
           "prefecture": "岐阜",
@@ -19688,7 +19682,7 @@
           "rider_full_name": "岩橋則明",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 54,
           "prefecture": "埼玉",
@@ -19703,7 +19697,7 @@
           "rider_full_name": "野崎翼",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 28,
           "prefecture": "岐阜",
@@ -19718,7 +19712,7 @@
           "rider_full_name": "川口聖翔",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "三重",
@@ -19733,7 +19727,7 @@
           "rider_full_name": "亀谷隆一",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-3",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "神奈",
@@ -19743,103 +19737,103 @@
         }
       ],
       "predictions": {
-        "3": {
-          "probability": 0.6290322642805763,
+        "5": {
+          "probability": 0.6290322645067373,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
+          "prob_2nd": 0.14864865041810987,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 1.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +B回数"
+          "shap_reason": "−得点順位 +得点偏差 +ライン位置 +grade_x_line_str +ライン支配率"
         },
         "1": {
-          "probability": 0.6562500066324786,
+          "probability": 0.6290322642281823,
           "win_probability": 0.1592219172084572,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 −2連率 +grade_x_line_str −ラインB回数均"
         },
-        "2": {
-          "probability": 0.5581395401957745,
-          "win_probability": 0.17149233650090995,
+        "3": {
+          "probability": 0.6290322642760942,
+          "win_probability": 0.13697114789882156,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 +ライン位置 +得点偏差 +grade_x_line_str −escape_lead_prob"
         },
-        "5": {
-          "probability": 0.5764705937993179,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.20212766137181012,
+        "2": {
+          "probability": 0.5764705936873532,
+          "win_probability": 0.17149233650090995,
+          "prob_2nd": 0.17553191670587626,
+          "prob_3rd": 0.14337899715923547,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str −得点順位"
-        },
-        "4": {
-          "probability": 0.36866359829495626,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
+          "shap_reason": "+得点順位 −escape_lead_prob +grade_x_line_str +役割別出走数 +フィールド平均得点"
         },
         "6": {
-          "probability": 0.42307692712795353,
+          "probability": 0.3008474605893965,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.08669065463189402,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −得点順位 +先頭選手得点 +ライン支配率"
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.2041526585115363,
+          "predicted_rank": 5.0,
+          "shap_reason": "−得点順位 −ライン位置 −得点偏差×ライン強 +得点偏差 +ライン支配率"
         },
         "7": {
-          "probability": 0.3008474606466398,
+          "probability": 0.2763157921781904,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.02453987873234839,
+          "prob_3rd": 0.11873351090678773,
+          "predicted_rank": 6.0,
+          "shap_reason": "−得点順位 −得点偏差 −ライン位置 −得点偏差×ライン強 +フィールド平均得点"
+        },
+        "4": {
+          "probability": 0.19780219994136414,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.09433962428319621,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点偏差×ライン強 +ライン支配率 −得点順位"
+          "shap_reason": "−ライン支配率 −ライン力(加重) −grade_x_line_str +ライン総合力 +得点偏差"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-3-2",
-          "score": 0.013955779587430503
+          "combo": "2-1-7",
+          "score": 0.07700691772912195
         },
         {
           "rank": 2,
-          "combo": "3-1-2",
-          "score": 0.013875355196310524
+          "combo": "1-2-7",
+          "score": 0.05611914931592449
         },
         {
           "rank": 3,
-          "combo": "3-1-5",
-          "score": 0.012044366709802629
+          "combo": "1-7-2",
+          "score": 0.031586019669005205
         },
         {
           "rank": 4,
-          "combo": "3-2-1",
-          "score": 0.011992568779503153
+          "combo": "2-1-5",
+          "score": 0.02465726963860343
         },
         {
           "rank": 5,
-          "combo": "1-5-3",
-          "score": 0.011592172417779321
+          "combo": "2-1-3",
+          "score": 0.02465726963860343
         },
         {
           "rank": 6,
-          "combo": "1-5-2",
-          "score": 0.011511248920574032
+          "combo": "1-2-3",
+          "score": 0.016271554527823334
         },
         {
           "rank": 7,
-          "combo": "1-3-5",
-          "score": 0.011159184005318583
+          "combo": "1-2-5",
+          "score": 0.01620227334702296
         },
         {
           "rank": 8,
-          "combo": "3-5-1",
-          "score": 0.010966446590393896
+          "combo": "2-1-4",
+          "score": 0.01599711636192126
         }
       ]
     },
@@ -19859,38 +19853,70 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  22",
-        "① ██░░░░░░░░  20",
-        "③ ██░░░░░░░░  17",
-        "④ █░░░░░░░░░  11",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░  10"
+        "④①⑥⑤ ██████░░░░  58",
+        "②⑦③　 ████░░░░░░  42"
       ],
       "rationale": [
-        "【1】1-4-3　2着(4)：場を支配しやすい強力ライン　紐(3)：フィールド全体で逃げ有利な構成",
-        "【2】1-2-3 （同上）",
-        "【3】1-2-4　紐(4)：場を支配しやすい強力ライン"
+        "【1】1-6-5　1着(1)：所属ラインがレースを制しやすい構成／メンバー構成的に先行有利",
+        "【2】1-4-6 （同上）",
+        "【3】2-7-3　1着(2)：実力差がライン強度でさらに際立つ　2着(7)：番手相手に得点で勝る"
       ],
       "formation": [
         {
           "firsts": [
-            1,
-            4
+            1
           ],
           "seconds": [
-            1,
-            2,
+            6
+          ],
+          "thirds": [
+            5
+          ],
+          "n_combos": 1,
+          "text": "1-6-5"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
             4
           ],
           "thirds": [
-            1,
             2,
+            5,
+            6
+          ],
+          "n_combos": 3,
+          "text": "1-4-256"
+        },
+        {
+          "firsts": [
+            2
+          ],
+          "seconds": [
+            7
+          ],
+          "thirds": [
+            1,
             3,
+            6
+          ],
+          "n_combos": 3,
+          "text": "2-7-136"
+        },
+        {
+          "firsts": [
+            2
+          ],
+          "seconds": [
             4
           ],
-          "n_combos": 8,
-          "text": "14-124-1234"
+          "thirds": [
+            1
+          ],
+          "n_combos": 1,
+          "text": "2-4-1"
         }
       ],
       "entries": [
@@ -19901,7 +19927,7 @@
           "rider_full_name": "岡崎和久",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 50,
           "prefecture": "奈良",
@@ -19916,7 +19942,7 @@
           "rider_full_name": "沢田勇治",
           "class_rank": "A3",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "山口",
@@ -19931,7 +19957,7 @@
           "rider_full_name": "中野功史",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 48,
           "prefecture": "長崎",
@@ -19946,7 +19972,7 @@
           "rider_full_name": "武田和也",
           "class_rank": "A3",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 38,
           "prefecture": "奈良",
@@ -19961,7 +19987,7 @@
           "rider_full_name": "西川弘資",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-4",
           "journalist_mark": null,
           "age": 58,
           "prefecture": "三重",
@@ -19976,7 +20002,7 @@
           "rider_full_name": "竜門孝宗",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 40,
           "prefecture": "兵庫",
@@ -19991,7 +20017,7 @@
           "rider_full_name": "龍門慎太郎",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 41,
           "prefecture": "岡山",
@@ -20002,102 +20028,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.6290322641715697,
+          "probability": 0.629032264483997,
           "win_probability": 0.15691415166600878,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 +フィールド逃げ率 −2連率"
         },
         "4": {
-          "probability": 0.5764705939186048,
+          "probability": 0.5764705936176446,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.14337899720484398,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+ライン支配率 +フィールド逃げ率 +ライン位置 −得点偏差×ライン強 +B回数"
         },
         "2": {
-          "probability": 0.4400000041236065,
-          "win_probability": 0.17149233650090995,
+          "probability": 0.30084746089882575,
+          "win_probability": 0.12039127467043048,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 −grade_x_line_str"
-        },
-        "3": {
-          "probability": 0.4736842147988447,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +フィールド逃げ率"
-        },
-        "7": {
-          "probability": 0.44000000411304757,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +ライン支配率 +先頭選手得点 −得点順位 +ライン総合力"
-        },
-        "5": {
-          "probability": 0.3008474605138376,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.20212766137181012,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +ライン支配率 +先頭選手得点 −grade_x_line_str −得点順位"
+          "shap_reason": "+得点順位 +フィールド逃げ率 +得点偏差×ライン強 −ライン総合力 −ライン支配率"
         },
         "6": {
-          "probability": 0.2763157921898592,
+          "probability": 0.36866359797003384,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.028735633674148234,
+          "prob_3rd": 0.14337899719894975,
+          "predicted_rank": 4.0,
+          "shap_reason": "−得点順位 +ライン支配率 +フィールド逃げ率 −得点偏差×ライン強 −ライン位置"
+        },
+        "7": {
+          "probability": 0.27631579226060143,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.061946904229708825,
+          "prob_3rd": 0.06451613060010036,
+          "predicted_rank": 5.0,
+          "shap_reason": "−得点順位 −得点偏差×ライン強 −ライン支配率 −得点偏差 +2番手得点差"
+        },
+        "3": {
+          "probability": 0.27631579192601646,
+          "win_probability": 0.08887774597087078,
+          "prob_2nd": 0.10045662271702704,
+          "prob_3rd": 0.1433789971964549,
+          "predicted_rank": 6.0,
+          "shap_reason": "−ライン位置 +フィールド逃げ率 −ライン支配率 +得点順位 −ライン総合力"
+        },
+        "5": {
+          "probability": 0.10738255174223996,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.14337899720484398,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン支配率 −grade_x_line_str"
+          "shap_reason": "−ライン位置 −得点順位 −得点偏差×ライン強 +フィールド逃げ率 −ライン強度×3番手"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-4-3",
-          "score": 0.01868672126960652
+          "combo": "1-6-5",
+          "score": 0.06032244167034476
         },
         {
           "rank": 2,
-          "combo": "1-2-3",
-          "score": 0.017419701761227376
+          "combo": "1-4-6",
+          "score": 0.056168688568414386
         },
         {
           "rank": 3,
-          "combo": "1-2-4",
-          "score": 0.01740582206005712
+          "combo": "2-7-3",
+          "score": 0.05132310982078005
         },
         {
           "rank": 4,
-          "combo": "1-4-2",
-          "score": 0.016756400488259958
+          "combo": "1-4-5",
+          "score": 0.04516821428881234
         },
         {
           "rank": 5,
-          "combo": "4-1-2",
-          "score": 0.015498536875770436
+          "combo": "1-4-2",
+          "score": 0.027765972708732257
         },
         {
           "rank": 6,
-          "combo": "4-2-1",
-          "score": 0.01304233151498819
+          "combo": "2-7-1",
+          "score": 0.020701699556020886
         },
         {
           "rank": 7,
-          "combo": "4-2-3",
-          "score": 0.012848546038063707
+          "combo": "2-7-6",
+          "score": 0.009909359128419027
         },
         {
           "rank": 8,
-          "combo": "4-1-3",
-          "score": 0.01196948279219539
+          "combo": "2-4-1",
+          "score": 0.00973772059309223
         }
       ]
     },
@@ -20117,45 +20143,47 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  18",
-        "② ██░░░░░░░░  16",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ ██░░░░░░░░  16",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░   9"
+        "①④⑥ ████░░░░░░  45",
+        "⑤③⑦ ████░░░░░░  41",
+        "②　　 █░░░░░░░░░  14"
       ],
-      "rationale": [],
+      "rationale": [
+        "【1】1-4-6　1着(1)：実力差がライン強度でさらに際立つ",
+        "【2】5-3-7　2着(3)：格上戦ほどライン勝負が効く",
+        "【3】1-4-5 （同上）"
+      ],
       "formation": [
         {
           "firsts": [
             1
           ],
           "seconds": [
-            2,
-            5
+            4
           ],
           "thirds": [
             2,
             3,
-            5
+            5,
+            6
           ],
           "n_combos": 4,
-          "text": "1-25-235"
+          "text": "1-4-2356"
         },
         {
           "firsts": [
-            2
-          ],
-          "seconds": [
-            1
-          ],
-          "thirds": [
-            3,
             5
           ],
+          "seconds": [
+            3
+          ],
+          "thirds": [
+            1,
+            2,
+            4,
+            7
+          ],
           "n_combos": 4,
-          "text": "2-1=35"
+          "text": "5-3-1247"
         }
       ],
       "entries": [
@@ -20166,7 +20194,7 @@
           "rider_full_name": "枠元一葵",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 27,
           "prefecture": "福井",
@@ -20181,7 +20209,7 @@
           "rider_full_name": "神山尚",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 35,
           "prefecture": "栃木",
@@ -20196,7 +20224,7 @@
           "rider_full_name": "佐藤明",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 50,
           "prefecture": "静岡",
@@ -20211,7 +20239,7 @@
           "rider_full_name": "冨岡健一",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 56,
           "prefecture": "岐阜",
@@ -20226,7 +20254,7 @@
           "rider_full_name": "池邉聖",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "神奈",
@@ -20241,7 +20269,7 @@
           "rider_full_name": "坂元洋行",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 46,
           "prefecture": "三重",
@@ -20256,7 +20284,7 @@
           "rider_full_name": "伊藤拓人",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-3",
           "journalist_mark": null,
           "age": 38,
           "prefecture": "静岡",
@@ -20267,102 +20295,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.6290322646153916,
+          "probability": 0.5764705940587707,
           "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
+          "prob_2nd": 0.22222222409478354,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 1.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 +B回数"
-        },
-        "2": {
-          "probability": 0.5581395402369832,
-          "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 −recent_avg_finish_diff +得点偏差×ライン強 −escape_lead_prob +ライン位置"
         },
         "5": {
-          "probability": 0.502824863540442,
+          "probability": 0.558139540118985,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.061946904243387085,
+          "prob_2nd": 0.14864865041810987,
           "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +得点偏差"
-        },
-        "3": {
-          "probability": 0.3686635981313356,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
-        },
-        "6": {
-          "probability": 0.36866359805617455,
-          "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.14337899717171368,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −得点順位 +先頭選手得点 +ライン支配率"
+          "predicted_rank": 2.0,
+          "shap_reason": "+得点偏差 −得点順位 −得点偏差×ライン強 +ライン位置 −escape_lead_prob"
         },
         "4": {
-          "probability": 0.3008474607413303,
+          "probability": 0.5028248632756526,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.23342939674597676,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン支配率 +得点偏差 +ライン位置 −得点偏差×ライン強 −得点順位"
+        },
+        "2": {
+          "probability": 0.5028248636834793,
+          "win_probability": 0.12039127467043048,
+          "prob_2nd": 0.10045662275866307,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 4.0,
+          "shap_reason": "−ライン支配率 +得点順位 −得点偏差×ライン強 +ライン総合力 +得点偏差"
+        },
+        "3": {
+          "probability": 0.45935715873964056,
+          "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.17553191670587626,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 5.0,
+          "shap_reason": "+grade_x_line_str +得点偏差 +得点順位 −得点偏差×ライン強 +フィールド平均得点"
+        },
+        "6": {
+          "probability": 0.3686635983502252,
+          "win_probability": 0.08664107082937327,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.14337899719894975,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
+          "shap_reason": "−得点順位 −ライン位置 +ライン支配率 −得点偏差×ライン強 +ラウンド"
         },
         "7": {
-          "probability": 0.3008474606641067,
+          "probability": 0.2763157921313377,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904162057434,
+          "prob_3rd": 0.06451613061788992,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −得点順位 +ライン支配率"
+          "shap_reason": "−得点順位 −ライン位置 −得点偏差×ライン強 +grade_x_line_str −recent_avg_finish_diff"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-5",
-          "score": 0.021165721237233353
+          "combo": "1-4-6",
+          "score": 0.06410533596748544
         },
         {
           "rank": 2,
-          "combo": "1-5-2",
-          "score": 0.019820943100432503
+          "combo": "5-3-7",
+          "score": 0.055587928411568836
         },
         {
           "rank": 3,
-          "combo": "2-1-5",
-          "score": 0.01839404698602506
+          "combo": "1-4-5",
+          "score": 0.023593167784599033
         },
         {
           "rank": 4,
-          "combo": "2-5-1",
-          "score": 0.014439327513464493
+          "combo": "1-4-2",
+          "score": 0.020925647802720573
         },
         {
           "rank": 5,
-          "combo": "1-2-3",
-          "score": 0.014345080008993408
+          "combo": "1-4-3",
+          "score": 0.02083937858991821
         },
         {
           "rank": 6,
-          "combo": "1-5-3",
-          "score": 0.013798119031098184
+          "combo": "5-3-1",
+          "score": 0.01977291942559801
         },
         {
           "rank": 7,
-          "combo": "2-1-3",
-          "score": 0.011107276040120765
+          "combo": "5-3-4",
+          "score": 0.013800834919358927
         },
         {
           "rank": 8,
-          "combo": "2-3-1",
-          "score": 0.010587235709278829
+          "combo": "5-3-2",
+          "score": 0.013098765658319553
         }
       ]
     },
@@ -20382,31 +20410,74 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  23",
-        "② ██░░░░░░░░  17",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "③⑤① █████░░░░░  52",
+        "⑥④　 ██░░░░░░░░  23",
+        "②　　 ██░░░░░░░░  15",
+        "⑦　　 █░░░░░░░░░  10"
       ],
-      "rationale": [],
+      "rationale": [
+        "【1】3-5-1　1着(3)：所属ラインがレースを制しやすい構成",
+        "【2】1-5-3 （同上）",
+        "【3】1-3-5 （同上）"
+      ],
       "formation": [
         {
           "firsts": [
+            3
+          ],
+          "seconds": [
+            5
+          ],
+          "thirds": [
             1,
             2
           ],
+          "n_combos": 2,
+          "text": "3-5-12"
+        },
+        {
+          "firsts": [
+            1
+          ],
           "seconds": [
-            1,
-            2
+            5
           ],
           "thirds": [
             3,
+            6
+          ],
+          "n_combos": 2,
+          "text": "1-5-36"
+        },
+        {
+          "firsts": [
+            1,
+            3
+          ],
+          "seconds": [
+            1,
+            3
+          ],
+          "thirds": [
+            5
+          ],
+          "n_combos": 2,
+          "text": "13-13-5"
+        },
+        {
+          "firsts": [
+            1,
+            3
+          ],
+          "seconds": [
             4
           ],
-          "n_combos": 8,
-          "text": "12-12=34"
+          "thirds": [
+            1,
+            3
+          ],
+          "n_combos": 2,
+          "text": "13-4-13"
         }
       ],
       "entries": [
@@ -20417,7 +20488,7 @@
           "rider_full_name": "川島勝",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "長崎",
@@ -20432,7 +20503,7 @@
           "rider_full_name": "櫻井宏智",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 56,
           "prefecture": "広島",
@@ -20447,7 +20518,7 @@
           "rider_full_name": "中山遼太郎",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 23,
           "prefecture": "熊本",
@@ -20462,7 +20533,7 @@
           "rider_full_name": "藤井稜也",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 30,
           "prefecture": "岐阜",
@@ -20477,7 +20548,7 @@
           "rider_full_name": "中園朋亨",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "福岡",
@@ -20492,7 +20563,7 @@
           "rider_full_name": "牛田樹希斗",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 28,
           "prefecture": "愛知",
@@ -20507,7 +20578,7 @@
           "rider_full_name": "田口守",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 38,
           "prefecture": "山口",
@@ -20518,102 +20589,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.7548638208139136,
+          "probability": 0.6562500066745997,
           "win_probability": 0.20178848763578958,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.14864865045704678,
+          "prob_3rd": 0.32786885450351144,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
-        },
-        "3": {
-          "probability": 0.5764705938267797,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +役割別出走数"
-        },
-        "2": {
-          "probability": 0.5764705938767457,
-          "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 −grade_x_line_str"
-        },
-        "4": {
-          "probability": 0.5581395398347164,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン位置"
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 −ライン位置 +grade_x_line_str"
         },
         "5": {
-          "probability": 0.4736842146589131,
+          "probability": 0.6290322641079379,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.20212766137181012,
+          "prob_2nd": 0.14864865041810987,
+          "prob_3rd": 0.14337899720484398,
+          "predicted_rank": 2.0,
+          "shap_reason": "+ライン支配率 +ライン位置 −得点順位 −得点偏差×ライン強 +grade_x_line_str"
+        },
+        "3": {
+          "probability": 0.6562500066272666,
+          "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.23342939674538468,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン支配率 +得点順位 +ライン位置 +得点偏差 −スターター候補"
+        },
+        "4": {
+          "probability": 0.5581395401195067,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.10045662272043725,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 4.0,
+          "shap_reason": "−ライン支配率 +得点偏差 −得点順位 +grade_x_line_str +フィールド平均得点"
+        },
+        "2": {
+          "probability": 0.47368421489373147,
+          "win_probability": 0.12039127467043048,
+          "prob_2nd": 0.10045662275866307,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−ライン支配率 +得点順位 +ライン総合力 −ライン力(加重) +ライン位置"
         },
         "6": {
-          "probability": 0.3686635980158485,
+          "probability": 0.22500000240948348,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
+          "prob_2nd": 0.061946904246450885,
           "prob_3rd": 0.08669065463189402,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −得点順位 +先頭選手得点 +B回数"
+          "shap_reason": "−得点順位 −ライン支配率 −recent_avg_finish_diff −得点偏差×ライン強 −減衰加重平均着順"
         },
         "7": {
-          "probability": 0.10738255153177666,
+          "probability": 0.034482759289957414,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
+          "prob_2nd": 0.02453987868556026,
           "prob_3rd": 0.04166666817487978,
           "predicted_rank": 7.0,
-          "shap_reason": "−得点偏差 −ライン力(加重) −得点順位 +ライン支配率 −得点偏差×ライン強"
+          "shap_reason": "−得点偏差 −ライン支配率 −得点順位 −ライン力(加重) −得点偏差×ライン強"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-4",
-          "score": 0.025710772327340804
+          "combo": "3-5-1",
+          "score": 0.055467845474692766
         },
         {
           "rank": 2,
-          "combo": "1-4-2",
-          "score": 0.02543329152640371
+          "combo": "1-5-3",
+          "score": 0.036202085671965464
         },
         {
           "rank": 3,
-          "combo": "1-3-2",
-          "score": 0.02423462357827961
+          "combo": "1-3-5",
+          "score": 0.02571169443956642
         },
         {
           "rank": 4,
-          "combo": "1-2-3",
-          "score": 0.024094253230573317
+          "combo": "3-5-2",
+          "score": 0.02449685430344398
         },
         {
           "rank": 5,
-          "combo": "2-1-4",
-          "score": 0.01767687272015611
+          "combo": "3-1-5",
+          "score": 0.02353254501654548
         },
         {
           "rank": 6,
-          "combo": "2-1-3",
-          "score": 0.016385363165721253
+          "combo": "1-5-6",
+          "score": 0.023013670751298152
         },
         {
           "rank": 7,
-          "combo": "2-3-1",
-          "score": 0.013828355269652568
+          "combo": "1-4-3",
+          "score": 0.012373706840682301
         },
         {
           "rank": 8,
-          "combo": "2-4-1",
-          "score": 0.013729348395717314
+          "combo": "3-4-1",
+          "score": 0.01109601197326763
         }
       ]
     },
@@ -20633,27 +20704,37 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  21",
-        "① ██░░░░░░░░  20",
-        "③ ██░░░░░░░░  17",
-        "④ █░░░░░░░░░  11",
-        "⑤ █░░░░░░░░░  11",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░  10"
+        "②①④ █████░░░░░  54",
+        "③⑦　 ██░░░░░░░░  25",
+        "⑤⑥　 ██░░░░░░░░  22"
       ],
       "rationale": [
-        "【1】2-1-3　2着(1)：ライン力に乗って地力差が活きる",
-        "【2】1-2-3　番手差し(1)：ライン力に乗って地力差が活きる",
-        "【3】2-3-1　紐(1)：ライン力に乗って地力差が活きる"
+        "【1】2-1-4　1着(2)：所属ラインがレースを制しやすい構成",
+        "【2】1-2-4 （同上）",
+        "【3】2-1-3 （同上）"
       ],
       "formation": [
         {
           "firsts": [
-            1,
             2
           ],
           "seconds": [
-            1,
+            1
+          ],
+          "thirds": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "n_combos": 4,
+          "text": "2-1-3457"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
             2
           ],
           "thirds": [
@@ -20661,23 +20742,21 @@
             4,
             5
           ],
-          "n_combos": 6,
-          "text": "12-12-345"
+          "n_combos": 3,
+          "text": "1-2-345"
         },
         {
           "firsts": [
-            1,
-            2
+            1
           ],
           "seconds": [
-            3
+            4
           ],
           "thirds": [
-            1,
             2
           ],
-          "n_combos": 2,
-          "text": "12-3-12"
+          "n_combos": 1,
+          "text": "1-4-2"
         }
       ],
       "entries": [
@@ -20688,7 +20767,7 @@
           "rider_full_name": "石橋慎太郎",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "静岡",
@@ -20703,7 +20782,7 @@
           "rider_full_name": "菊地圭",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 25,
           "prefecture": "宮城",
@@ -20718,7 +20797,7 @@
           "rider_full_name": "山田雄大",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 26,
           "prefecture": "埼玉",
@@ -20733,7 +20812,7 @@
           "rider_full_name": "山田幸司",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 54,
           "prefecture": "神奈",
@@ -20748,7 +20827,7 @@
           "rider_full_name": "谷口友真",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "大阪",
@@ -20763,7 +20842,7 @@
           "rider_full_name": "原真司",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 48,
           "prefecture": "岐阜",
@@ -20778,7 +20857,7 @@
           "rider_full_name": "山田義彦",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 40,
           "prefecture": "埼玉",
@@ -20788,103 +20867,103 @@
         }
       ],
       "predictions": {
-        "2": {
-          "probability": 0.6562500066586052,
-          "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 1.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
-        },
         "1": {
-          "probability": 0.7548638200562364,
-          "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.8947368506239061,
+          "win_probability": 0.15691415166600878,
+          "prob_2nd": 0.23342939674538468,
+          "prob_3rd": 0.1265822801922005,
+          "predicted_rank": 1.0,
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 +ライン力(加重) +grade_x_line_str"
+        },
+        "2": {
+          "probability": 0.7548638208490945,
+          "win_probability": 0.17149233650090995,
+          "prob_2nd": 0.23342939674538468,
+          "prob_3rd": 0.14337899715923547,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
-        },
-        "3": {
-          "probability": 0.502824863546705,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str −得点偏差×ライン強"
-        },
-        "5": {
-          "probability": 0.36866359834860674,
-          "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −得点順位 +ライン支配率"
+          "shap_reason": "+得点順位 +ライン支配率 +得点偏差×ライン強 −スターター候補 −開催日序数"
         },
         "4": {
-          "probability": 0.3686635980172382,
+          "probability": 0.5764705940887235,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.06194690427423182,
+          "prob_3rd": 0.32786885450351144,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン支配率 +grade_x_line_str +ライン力(加重) −得点偏差×ライン強 −ライン位置"
+        },
+        "3": {
+          "probability": 0.4230769270233464,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.10045662272043725,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 4.0,
+          "shap_reason": "−得点偏差×ライン強 −ライン支配率 +得点順位 −フィールド平均得点 −開催日序数"
+        },
+        "5": {
+          "probability": 0.2763157920623736,
+          "win_probability": 0.08664107082937327,
+          "prob_2nd": 0.061946904246450885,
+          "prob_3rd": 0.14337899715923547,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 −grade_x_line_str +ライン総合力"
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 −開催日序数 −フィールド平均得点"
         },
         "7": {
-          "probability": 0.22500000240020945,
+          "probability": 0.2250000022779775,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.02873563367647932,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−得点順位 −ライン支配率 −得点偏差×ライン強 −得点偏差 +grade_x_line_str"
         },
         "6": {
-          "probability": 0.22500000235984788,
+          "probability": 0.133333335155495,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904246450885,
+          "prob_3rd": 0.11873351091614119,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +ライン総合力 −得点順位 +先頭選手得点 +ライン支配率"
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 −開催日序数 +ラウンド"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-1-3",
-          "score": 0.03386257548480223
+          "combo": "2-1-4",
+          "score": 0.07312915211656605
         },
         {
           "rank": 2,
-          "combo": "1-2-3",
-          "score": 0.0337944491648715
+          "combo": "1-2-4",
+          "score": 0.07249814196763986
         },
         {
           "rank": 3,
-          "combo": "2-3-1",
-          "score": 0.024855667017810824
+          "combo": "2-1-3",
+          "score": 0.03905407987204305
         },
         {
           "rank": 4,
-          "combo": "1-3-2",
-          "score": 0.02317334821369923
+          "combo": "1-4-2",
+          "score": 0.034025950993072256
         },
         {
           "rank": 5,
-          "combo": "2-1-4",
-          "score": 0.02280767386371494
+          "combo": "2-1-5",
+          "score": 0.031232768182747016
         },
         {
           "rank": 6,
-          "combo": "1-2-4",
-          "score": 0.021396051927501002
+          "combo": "2-1-7",
+          "score": 0.026919453046157348
         },
         {
           "rank": 7,
-          "combo": "2-1-5",
-          "score": 0.021134552910756006
+          "combo": "1-2-3",
+          "score": 0.024677414426212945
         },
         {
           "rank": 8,
           "combo": "1-2-5",
-          "score": 0.020182110820600986
+          "score": 0.022608059264628087
         }
       ]
     },
@@ -20904,18 +20983,14 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  23",
-        "② ██░░░░░░░░  17",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░   9"
+        "①②　 ████░░░░░░  39",
+        "⑤③⑥ ████░░░░░░  38",
+        "④⑦　 ██░░░░░░░░  23"
       ],
       "rationale": [
-        "【1】1-2-4　1着(1)：ライン力に乗って地力差が活きる　紐(4)：ライン全体で主導権を握れる並び",
-        "【2】1-4-2　2着(4)：ライン全体で主導権を握れる並び",
-        "【3】1-2-3　紐(3)：場を支配しやすい強力ライン"
+        "【1】1-2-3　1着(1)：ライン力に乗って地力差が活きる／逃げが残りやすい顔ぶれ　紐(3)：場を支配しやすい強力ライン",
+        "【2】1-2-5 （同上）",
+        "【3】1-2-4 （同上）"
       ],
       "formation": [
         {
@@ -20923,30 +20998,32 @@
             1
           ],
           "seconds": [
-            2,
-            4
+            2
           ],
           "thirds": [
-            2,
             3,
-            4
+            4,
+            5,
+            7
           ],
           "n_combos": 4,
-          "text": "1-24-234"
+          "text": "1-2-3457"
         },
         {
           "firsts": [
-            2
+            3
           ],
           "seconds": [
-            3,
-            4
+            5,
+            6
           ],
           "thirds": [
-            1
+            1,
+            5,
+            6
           ],
           "n_combos": 4,
-          "text": "2-34=1"
+          "text": "3-56-156"
         }
       ],
       "entries": [
@@ -20957,7 +21034,7 @@
           "rider_full_name": "小竹洋平",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 36,
           "prefecture": "福岡",
@@ -20972,7 +21049,7 @@
           "rider_full_name": "寺崎祐樹",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "熊本",
@@ -20987,7 +21064,7 @@
           "rider_full_name": "林成人",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 53,
           "prefecture": "愛媛",
@@ -21002,7 +21079,7 @@
           "rider_full_name": "井田晶之",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 35,
           "prefecture": "三重",
@@ -21017,7 +21094,7 @@
           "rider_full_name": "藤原亮太",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 38,
           "prefecture": "岡山",
@@ -21032,7 +21109,7 @@
           "rider_full_name": "宮本佳樹",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 53,
           "prefecture": "香川",
@@ -21047,7 +21124,7 @@
           "rider_full_name": "井上将志",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 41,
           "prefecture": "兵庫",
@@ -21058,102 +21135,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.7548638207461708,
+          "probability": 0.7548638202889131,
           "win_probability": 0.20178848763578958,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +得点偏差×ライン強 +ライン総合力"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 −ライン支配率 +得点偏差 +フィールド逃げ率"
         },
         "2": {
-          "probability": 0.6290322640769571,
-          "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.7548638202242143,
+          "win_probability": 0.12039127467043048,
+          "prob_2nd": 0.22222222412856527,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 −grade_x_line_str"
-        },
-        "4": {
-          "probability": 0.6290322642735386,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 +ライン支配率 −grade_x_line_str"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +フィールド逃げ率 −ライン支配率 −ラインB回数均"
         },
         "3": {
-          "probability": 0.5581395402180832,
+          "probability": 0.576470593742345,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −grade_x_line_str +ライン総合力 +ライン支配率"
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン支配率 −得点偏差×ライン強 +フィールド逃げ率 +得点順位 +得点偏差"
         },
         "5": {
-          "probability": 0.36866359809740723,
+          "probability": 0.4230769270969979,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.20212766137181012,
+          "prob_2nd": 0.14864865041810987,
+          "prob_3rd": 0.14337899720484398,
+          "predicted_rank": 4.0,
+          "shap_reason": "+ライン支配率 −得点順位 +フィールド逃げ率 −得点偏差×ライン強 +ライン位置"
+        },
+        "4": {
+          "probability": 0.36866359835875956,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.09433962428319621,
+          "prob_3rd": 0.12878788049930456,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +ライン支配率 −grade_x_line_str +ライン総合力 +先頭選手得点"
+          "shap_reason": "−ライン支配率 +得点偏差 −得点偏差×ライン強 +フィールド逃げ率 −得点順位"
         },
         "7": {
-          "probability": 0.3686635978173911,
+          "probability": 0.42307692710218064,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.02873563367647932,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −得点偏差 +先頭選手得点 −得点順位 −grade_x_line_str"
+          "shap_reason": "−得点順位 −得点偏差 −ライン支配率 −得点偏差×ライン強 +フィールド逃げ率"
         },
         "6": {
-          "probability": 0.30084746046136057,
+          "probability": 0.27631579212757024,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.08669065463189402,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.14337899719894975,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +ライン総合力 +先頭選手得点 −grade_x_line_str"
+          "shap_reason": "−得点順位 −ライン位置 +ライン支配率 +フィールド逃げ率 −得点偏差×ライン強"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-4",
-          "score": 0.027332044092001212
+          "combo": "1-2-3",
+          "score": 0.05090054963201819
         },
         {
           "rank": 2,
-          "combo": "1-4-2",
-          "score": 0.02558401110290807
+          "combo": "1-2-5",
+          "score": 0.030774838179364092
         },
         {
           "rank": 3,
-          "combo": "1-2-3",
-          "score": 0.019974316290830883
+          "combo": "1-2-4",
+          "score": 0.030263979863823974
         },
         {
           "rank": 4,
-          "combo": "1-4-3",
-          "score": 0.01814791091792959
+          "combo": "1-2-7",
+          "score": 0.02688548971418907
         },
         {
           "rank": 5,
-          "combo": "2-4-1",
-          "score": 0.01741558978367374
+          "combo": "3-5-6",
+          "score": 0.02584417874584333
         },
         {
           "rank": 6,
-          "combo": "2-1-4",
-          "score": 0.016900186713494022
+          "combo": "3-6-5",
+          "score": 0.0165846903833467
         },
         {
           "rank": 7,
-          "combo": "2-1-3",
-          "score": 0.01238130355921786
+          "combo": "3-5-1",
+          "score": 0.010782866736561831
         },
         {
           "rank": 8,
-          "combo": "2-3-1",
-          "score": 0.010886642817578035
+          "combo": "3-6-1",
+          "score": 0.009954237710761482
         }
       ]
     },
@@ -21173,38 +21250,58 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  20",
-        "① ██░░░░░░░░  19",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "②①⑦ █████░░░░░  48",
+        "③④⑤ ████░░░░░░  43",
+        "⑥　　 █░░░░░░░░░   9"
       ],
       "rationale": [
-        "【1】2-3-1　1着(2)：強力ラインを背に得点差が効く",
-        "【2】2-1-4 （同上）",
-        "【3】3-1-2　紐(2)：強力ラインを背に得点差が効く"
+        "【1】2-1-7　1着(2)：強力ラインを背に得点差が効く　2着(1)：番組の中で地力上位",
+        "【2】1-2-7　番手差し(1)：番組の中で地力上位",
+        "【3】2-1-4　紐(4)：格上戦ほどライン勝負が効く"
       ],
       "formation": [
         {
           "firsts": [
-            2,
-            3
+            1,
+            2
           ],
           "seconds": [
             1,
-            2,
+            2
+          ],
+          "thirds": [
+            3,
+            4,
+            7
+          ],
+          "n_combos": 6,
+          "text": "12-12-347"
+        },
+        {
+          "firsts": [
+            2
+          ],
+          "seconds": [
             3
           ],
           "thirds": [
-            1,
-            2,
-            3,
             4
           ],
-          "n_combos": 8,
-          "text": "23-123-1234"
+          "n_combos": 1,
+          "text": "2-3-4"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
+            7
+          ],
+          "thirds": [
+            2
+          ],
+          "n_combos": 1,
+          "text": "1-7-2"
         }
       ],
       "entries": [
@@ -21215,7 +21312,7 @@
           "rider_full_name": "齊藤竜也",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 51,
           "prefecture": "神奈",
@@ -21230,7 +21327,7 @@
           "rider_full_name": "坪内恒",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 35,
           "prefecture": "千葉",
@@ -21245,7 +21342,7 @@
           "rider_full_name": "中島淳",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 26,
           "prefecture": "埼玉",
@@ -21260,7 +21357,7 @@
           "rider_full_name": "菅谷隆司",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 41,
           "prefecture": "東京",
@@ -21275,7 +21372,7 @@
           "rider_full_name": "坂本将太郎",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 33,
           "prefecture": "栃木",
@@ -21290,7 +21387,7 @@
           "rider_full_name": "十文字菊雄",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 55,
           "prefecture": "福島",
@@ -21305,7 +21402,7 @@
           "rider_full_name": "森川剛",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 47,
           "prefecture": "神奈",
@@ -21315,103 +21412,103 @@
         }
       ],
       "predictions": {
-        "3": {
-          "probability": 0.7548638204055013,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 +B回数 −grade_x_line_str"
-        },
         "1": {
-          "probability": 0.7548638203259002,
+          "probability": 0.7548638210231091,
           "win_probability": 0.15691415166600878,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 2.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 1.0,
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +格×得点偏差 +grade_x_line_str +得点偏差"
         },
         "2": {
-          "probability": 0.6290322642504741,
+          "probability": 0.754863820674212,
           "win_probability": 0.17149233650090995,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.12658228017470757,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 +得点偏差×ライン強"
+          "predicted_rank": 2.0,
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +grade_x_line_str −スターター候補 +ライン位置"
         },
         "4": {
-          "probability": 0.4230769270135604,
+          "probability": 0.6290322642707269,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン力(加重) +grade_x_line_str +得点偏差 +2番手得点差 +得点偏差×ライン強"
+        },
+        "3": {
+          "probability": 0.6290322642943611,
+          "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.17553191670587626,
+          "prob_3rd": 0.14337899715923547,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str −得点順位"
+          "shap_reason": "+得点順位 +ライン力(加重) +grade_x_line_str +得点偏差×ライン強 −escape_lead_prob"
         },
         "5": {
-          "probability": 0.3686635981288483,
+          "probability": 0.43802867385537003,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.20212766137181012,
+          "prob_2nd": 0.06194690426064543,
+          "prob_3rd": 0.20212766141927033,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 +ライン支配率 −得点順位"
+          "shap_reason": "+ライン力(加重) −得点順位 +grade_x_line_str −得点偏差×ライン強 −ライン位置"
         },
         "6": {
-          "probability": 0.10738255175963458,
+          "probability": 0.1073825514219501,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.02873563367647932,
+          "prob_3rd": 0.0980392173115737,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −得点偏差 −得点順位 +先頭選手得点 −得点偏差×ライン強"
+          "shap_reason": "−ライン支配率 −得点偏差 −得点順位 −ライン力(加重) −得点偏差×ライン強"
         },
         "7": {
-          "probability": 0.04255319243417384,
+          "probability": 0.1073825515320804,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.04166666817487978,
+          "prob_2nd": 0.02453987873234839,
+          "prob_3rd": 0.11873351090678773,
           "predicted_rank": 7.0,
-          "shap_reason": "−得点偏差 −ライン力(加重) −得点順位 −得点偏差×ライン強 +先頭選手得点"
+          "shap_reason": "−得点偏差 −得点順位 −得点偏差×ライン強 +grade_x_line_str −ライン位置"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-3-1",
-          "score": 0.03151115572013388
+          "combo": "2-1-7",
+          "score": 0.06231164749905727
         },
         {
           "rank": 2,
-          "combo": "2-1-4",
-          "score": 0.03017237824019098
+          "combo": "1-2-7",
+          "score": 0.05293990849882698
         },
         {
           "rank": 3,
-          "combo": "3-1-2",
-          "score": 0.027785598873152007
+          "combo": "2-1-4",
+          "score": 0.031649093580408426
         },
         {
           "rank": 4,
-          "combo": "3-2-1",
-          "score": 0.026105453525107326
+          "combo": "2-1-3",
+          "score": 0.031649093580408426
         },
         {
           "rank": 5,
-          "combo": "2-3-4",
-          "score": 0.02554681017813505
+          "combo": "1-2-3",
+          "score": 0.022824011161143305
         },
         {
           "rank": 6,
-          "combo": "2-1-3",
-          "score": 0.02548208239085888
+          "combo": "1-2-4",
+          "score": 0.022726830867696772
         },
         {
           "rank": 7,
-          "combo": "3-2-4",
-          "score": 0.021891801016519368
+          "combo": "2-3-4",
+          "score": 0.020978133933130128
         },
         {
           "rank": 8,
-          "combo": "3-1-4",
-          "score": 0.016970654589611688
+          "combo": "1-7-2",
+          "score": 0.016180931074226745
         }
       ]
     },
@@ -21431,57 +21528,59 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  19",
-        "① ██░░░░░░░░  18",
-        "③ ██░░░░░░░░  15",
-        "④ ██░░░░░░░░  15",
-        "⑤ ██░░░░░░░░  15",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "④①⑥ █████░░░░░  47",
+        "③②　 ███░░░░░░░  29",
+        "⑤⑦　 ██░░░░░░░░  24"
       ],
-      "rationale": [],
+      "rationale": [
+        "【1】1-4-6　1着(1)：ライン力に乗って地力差が活きる",
+        "【2】4-1-6 （同上）",
+        "【3】1-6-4 （同上）"
+      ],
       "formation": [
         {
           "firsts": [
-            3
+            1
           ],
           "seconds": [
             4
           ],
           "thirds": [
-            1,
             2,
-            5
+            5,
+            6
           ],
           "n_combos": 3,
-          "text": "3-4-125"
+          "text": "1-4-256"
         },
         {
           "firsts": [
             4
-          ],
-          "seconds": [
-            3
-          ],
-          "thirds": [
-            1,
-            5
-          ],
-          "n_combos": 4,
-          "text": "4-3=15"
-        },
-        {
-          "firsts": [
-            3
           ],
           "seconds": [
             1
           ],
           "thirds": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "n_combos": 4,
+          "text": "4-1-2356"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
+            6
+          ],
+          "thirds": [
             4
           ],
           "n_combos": 1,
-          "text": "3-1-4"
+          "text": "1-6-4"
         }
       ],
       "entries": [
@@ -21492,7 +21591,7 @@
           "rider_full_name": "富弥昭",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 54,
           "prefecture": "山口",
@@ -21507,7 +21606,7 @@
           "rider_full_name": "鈴木幸紀",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 50,
           "prefecture": "三重",
@@ -21522,7 +21621,7 @@
           "rider_full_name": "中釜健次",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 27,
           "prefecture": "大阪",
@@ -21537,7 +21636,7 @@
           "rider_full_name": "山崎航",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 31,
           "prefecture": "山口",
@@ -21552,7 +21651,7 @@
           "rider_full_name": "福田要",
           "class_rank": "A2",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 27,
           "prefecture": "宮崎",
@@ -21567,7 +21666,7 @@
           "rider_full_name": "二條祐也",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-3",
           "journalist_mark": null,
           "age": 41,
           "prefecture": "徳島",
@@ -21582,7 +21681,7 @@
           "rider_full_name": "神開将暢",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 53,
           "prefecture": "福岡",
@@ -21592,103 +21691,103 @@
         }
       ],
       "predictions": {
-        "3": {
-          "probability": 0.6290322642993046,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
+        "1": {
+          "probability": 0.7548638203388897,
+          "win_probability": 0.1592219172084572,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 −grade_x_line_str +得点順位"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +ライン支配率 −開催日序数 +grade_x_line_str"
         },
-        "4": {
-          "probability": 0.6290322640681232,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
+        "3": {
+          "probability": 0.6290322641407171,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 +B回数 −grade_x_line_str"
+          "shap_reason": "+得点順位 −ライン支配率 +得点偏差 −開催日序数 +近10走1着率"
+        },
+        "4": {
+          "probability": 0.5764705941791222,
+          "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 3.0,
+          "shap_reason": "+ライン支配率 +grade_x_line_str +得点偏差×ライン強 −開催日序数 +得点偏差"
         },
         "5": {
-          "probability": 0.5764705938207821,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.20212766137181012,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −得点順位 −grade_x_line_str"
-        },
-        "1": {
-          "probability": 0.5581395402347386,
-          "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.5028248634195139,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.061946904246450885,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−ライン支配率 −得点順位 +得点偏差 +上り偏差値 +期別"
         },
         "2": {
-          "probability": 0.36866359791973347,
-          "win_probability": 0.17149233650090995,
+          "probability": 0.4736842146616711,
+          "win_probability": 0.12039127467043048,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 −grade_x_line_str +ライン総合力"
-        },
-        "7": {
-          "probability": 0.36866359808434607,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 −得点偏差×ライン強 +ライン総合力"
+          "shap_reason": "+得点順位 −ライン支配率 +grade_x_line_str −減衰加重平均着順 +得点偏差"
         },
         "6": {
-          "probability": 0.2763157921652639,
+          "probability": 0.30084746054795886,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904162057434,
+          "prob_3rd": 0.2041526585115363,
+          "predicted_rank": 6.0,
+          "shap_reason": "−得点順位 +ライン支配率 −得点偏差×ライン強 −得点偏差 +grade_x_line_str"
+        },
+        "7": {
+          "probability": 0.27631579204551376,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.02873563367647932,
+          "prob_3rd": 0.11873351087133356,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 +ライン支配率"
+          "shap_reason": "−得点順位 +減衰加重平均着順 −ライン支配率 −得点偏差 −得点偏差×ライン強"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "3-4-1",
-          "score": 0.0177479732009648
+          "combo": "1-4-6",
+          "score": 0.07433461167684684
         },
         {
           "rank": 2,
-          "combo": "4-3-1",
-          "score": 0.017623762694248958
+          "combo": "4-1-6",
+          "score": 0.0547456176840963
         },
         {
           "rank": 3,
-          "combo": "4-1-3",
-          "score": 0.016283255322053894
+          "combo": "1-6-4",
+          "score": 0.024799135760556923
         },
         {
           "rank": 4,
-          "combo": "3-1-4",
-          "score": 0.015813583095094366
+          "combo": "4-1-5",
+          "score": 0.023861055946383707
         },
         {
           "rank": 5,
-          "combo": "4-3-5",
-          "score": 0.012303552165658774
+          "combo": "1-4-5",
+          "score": 0.0234325795698026
         },
         {
           "rank": 6,
-          "combo": "3-4-5",
-          "score": 0.012187963219670965
+          "combo": "4-1-2",
+          "score": 0.022301684998102395
         },
         {
           "rank": 7,
-          "combo": "4-5-3",
-          "score": 0.011365338963161168
+          "combo": "1-4-2",
+          "score": 0.022298989420911512
         },
         {
           "rank": 8,
-          "combo": "3-4-2",
-          "score": 0.011273166777093092
+          "combo": "4-1-3",
+          "score": 0.020018473495868928
         }
       ]
     },
@@ -21708,35 +21807,60 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  20",
-        "① ██░░░░░░░░  19",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "⑤③⑥ ████░░░░░░  38",
+        "①④　 ███░░░░░░░  33",
+        "②　　 ██░░░░░░░░  19",
+        "⑦　　 █░░░░░░░░░  10"
       ],
       "rationale": [
-        "【1】2-4-1　2着(4)：ライン全体で主導権を握れる並び",
-        "【2】2-1-4　紐(4)：ライン全体で主導権を握れる並び",
-        "【3】1-2-4 （同上）"
+        "【1】1-4-2　1着(1)：強力ラインを背に得点差が効く／格に対して実力が際立つ　2着(4)：2番手より明確な得点優位　紐(2)：自力一本でも崩れにくい",
+        "【2】1-4-3　紐(3)：所属ラインがレースを制しやすい構成",
+        "【3】3-5-6 （同上）"
       ],
       "formation": [
         {
           "firsts": [
-            1,
-            2
+            1
           ],
           "seconds": [
-            4,
+            4
+          ],
+          "thirds": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "n_combos": 4,
+          "text": "1-4-2357"
+        },
+        {
+          "firsts": [
+            3
+          ],
+          "seconds": [
             5
           ],
           "thirds": [
             1,
-            2
+            2,
+            6
           ],
-          "n_combos": 8,
-          "text": "12-45=12"
+          "n_combos": 3,
+          "text": "3-5-126"
+        },
+        {
+          "firsts": [
+            3
+          ],
+          "seconds": [
+            6
+          ],
+          "thirds": [
+            5
+          ],
+          "n_combos": 1,
+          "text": "3-6-5"
         }
       ],
       "entries": [
@@ -21747,7 +21871,7 @@
           "rider_full_name": "内藤久文",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 34,
           "prefecture": "愛知",
@@ -21762,7 +21886,7 @@
           "rider_full_name": "田頭寛之",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "千葉",
@@ -21777,7 +21901,7 @@
           "rider_full_name": "宮内善光",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "4-2",
           "journalist_mark": null,
           "age": 45,
           "prefecture": "群馬",
@@ -21792,7 +21916,7 @@
           "rider_full_name": "前田拓也",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 52,
           "prefecture": "大阪",
@@ -21807,7 +21931,7 @@
           "rider_full_name": "土田武志",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 27,
           "prefecture": "茨城",
@@ -21822,7 +21946,7 @@
           "rider_full_name": "近藤寛央",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "4-3",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "東京",
@@ -21837,7 +21961,7 @@
           "rider_full_name": "寺林正秋",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 41,
           "prefecture": "宮城",
@@ -21848,102 +21972,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.754863820083194,
+          "probability": 0.754863820586689,
           "win_probability": 0.15691415166600878,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.1187335108953236,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str"
-        },
-        "5": {
-          "probability": 0.576470594129491,
-          "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 −得点順位 +B回数"
-        },
-        "2": {
-          "probability": 0.6290322640443549,
-          "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +得点偏差 +格×得点偏差 −減衰加重平均着順"
         },
         "3": {
-          "probability": 0.5028248636733694,
+          "probability": 0.6290322640774428,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +ライン支配率"
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 2.0,
+          "shap_reason": "+ライン支配率 +grade_x_line_str +得点順位 +ライン力(加重) +得点偏差"
+        },
+        "2": {
+          "probability": 0.5028248632547582,
+          "win_probability": 0.15210671770258463,
+          "prob_2nd": 0.10045662275866307,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 3.0,
+          "shap_reason": "−ライン支配率 +得点順位 +ライン総合力 +得点偏差 +solo_score"
         },
         "4": {
-          "probability": 0.5581395399774549,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +ライン支配率"
+          "probability": 0.5028248635238285,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 4.0,
+          "shap_reason": "+2番手得点差 +得点偏差 −ライン支配率 +grade_x_line_str −得点偏差×ライン強"
         },
-        "7": {
-          "probability": 0.30084746047326183,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −得点順位 −grade_x_line_str"
+        "5": {
+          "probability": 0.4400000040956827,
+          "win_probability": 0.08664107082937327,
+          "prob_2nd": 0.14864865041810987,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 5.0,
+          "shap_reason": "+ライン支配率 −得点順位 −得点偏差×ライン強 +grade_x_line_str −escape_lead_prob"
         },
         "6": {
-          "probability": 0.22500000238186,
+          "probability": 0.2763157921582469,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.028735633674148234,
+          "prob_3rd": 0.2041526585115363,
+          "predicted_rank": 6.0,
+          "shap_reason": "−得点順位 −得点偏差×ライン強 +ライン支配率 +grade_x_line_str −ライン位置"
+        },
+        "7": {
+          "probability": 0.27631579200668765,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.02873563367647932,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン支配率 +ライン総合力"
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 −得点偏差 +ライン総合力"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-4-1",
-          "score": 0.02125084059179163
+          "combo": "1-4-2",
+          "score": 0.037462332673758106
         },
         {
           "rank": 2,
-          "combo": "2-1-4",
-          "score": 0.021035504335312656
+          "combo": "1-4-3",
+          "score": 0.030942938331872717
         },
         {
           "rank": 3,
-          "combo": "1-2-4",
-          "score": 0.020262288660230332
+          "combo": "3-5-6",
+          "score": 0.02871321522678739
         },
         {
           "rank": 4,
-          "combo": "2-5-1",
-          "score": 0.020042298954963372
+          "combo": "1-4-7",
+          "score": 0.023770009480724705
         },
         {
           "rank": 5,
-          "combo": "1-4-2",
-          "score": 0.019613565375458636
+          "combo": "1-4-5",
+          "score": 0.02326423627511016
         },
         {
           "rank": 6,
-          "combo": "1-5-2",
-          "score": 0.01857929707300762
+          "combo": "3-5-1",
+          "score": 0.01547501407266397
         },
         {
           "rank": 7,
-          "combo": "2-1-5",
-          "score": 0.01599126662830098
+          "combo": "3-6-5",
+          "score": 0.014629062013694806
         },
         {
           "rank": 8,
-          "combo": "1-2-5",
-          "score": 0.014895661532010178
+          "combo": "3-5-2",
+          "score": 0.013000495824210796
         }
       ]
     },
@@ -21963,35 +22087,59 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  20",
-        "① ██░░░░░░░░  19",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░   9",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "①②　 ████░░░░░░  39",
+        "④⑤⑥ ████░░░░░░  37",
+        "③⑦　 ██░░░░░░░░  25"
       ],
       "rationale": [
-        "【1】3-1-2　2着(1)：ライン力に乗って地力差が活きる",
-        "【2】1-3-2　番手差し(1)：ライン力に乗って地力差が活きる",
-        "【3】3-4-2 （同上）"
+        "【1】1-2-4　1着(1)：ライン力に乗って地力差が活きる／格に対して実力が際立つ　2着(2)：番手相手に得点で勝る　紐(4)：高グレードで並びの強さが活きる",
+        "【2】1-2-3　紐(3)：このグレードでライン力が生きる展開",
+        "【3】4-5-6 （同上）"
       ],
       "formation": [
         {
           "firsts": [
-            1,
-            3
+            1
           ],
           "seconds": [
-            1,
+            2
+          ],
+          "thirds": [
             3,
+            4,
+            5,
+            7
+          ],
+          "n_combos": 4,
+          "text": "1-2-3457"
+        },
+        {
+          "firsts": [
             4
+          ],
+          "seconds": [
+            5
+          ],
+          "thirds": [
+            1,
+            2,
+            6
+          ],
+          "n_combos": 3,
+          "text": "4-5-126"
+        },
+        {
+          "firsts": [
+            4
+          ],
+          "seconds": [
+            1
           ],
           "thirds": [
             2
           ],
-          "n_combos": 8,
-          "text": "13-134=2"
+          "n_combos": 1,
+          "text": "4-1-2"
         }
       ],
       "entries": [
@@ -22002,7 +22150,7 @@
           "rider_full_name": "堀川敬太郎",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 24,
           "prefecture": "福岡",
@@ -22017,7 +22165,7 @@
           "rider_full_name": "前田義和",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 42,
           "prefecture": "鹿児",
@@ -22032,7 +22180,7 @@
           "rider_full_name": "水谷亮太",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 29,
           "prefecture": "愛知",
@@ -22047,7 +22195,7 @@
           "rider_full_name": "森柾斗",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 26,
           "prefecture": "徳島",
@@ -22062,7 +22210,7 @@
           "rider_full_name": "四宮哲郎",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 53,
           "prefecture": "京都",
@@ -22077,7 +22225,7 @@
           "rider_full_name": "金子浩貴",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-3",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "京都",
@@ -22092,7 +22240,7 @@
           "rider_full_name": "下岡将也",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 29,
           "prefecture": "三重",
@@ -22103,102 +22251,102 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.6290322644721834,
+          "probability": 0.7548638205591689,
           "win_probability": 0.15691415166600878,
           "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1187335108953236,
+          "prob_3rd": 0.04166666813417234,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 −フィールド逃げ率 +得点偏差 +格×得点偏差"
         },
         "3": {
-          "probability": 0.7548638202215671,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
+          "probability": 0.6290322641767033,
+          "win_probability": 0.10990080115212067,
+          "prob_2nd": 0.10045662272043725,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 −フィールド逃げ率 +B回数"
-        },
-        "4": {
-          "probability": 0.62903226428607,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.14337899715923547,
-          "predicted_rank": 3.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +ライン総合力 −フィールド逃げ率 +B回数"
+          "shap_reason": "−フィールド逃げ率 +得点順位 −ライン支配率 +grade_x_line_str +得点偏差"
         },
         "2": {
-          "probability": 0.558139540079492,
-          "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
+          "probability": 0.6290322645870551,
+          "win_probability": 0.15210671770258463,
+          "prob_2nd": 0.22222222412856527,
+          "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 3.0,
+          "shap_reason": "+得点順位 −フィールド逃げ率 +2番手得点差 +得点偏差×ライン強 −開催日序数"
+        },
+        "4": {
+          "probability": 0.5028248636133464,
+          "win_probability": 0.13697114789882156,
+          "prob_2nd": 0.22222222409478354,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 4.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +得点順位 +ライン総合力 −フィールド逃げ率"
+          "shap_reason": "−フィールド逃げ率 +grade_x_line_str +ライン支配率 +得点偏差 +ライン力(加重)"
         },
         "5": {
-          "probability": 0.2763157920678853,
+          "probability": 0.3686635979210511,
           "win_probability": 0.07885121081361618,
           "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.20212766137181012,
+          "prob_3rd": 0.14337899720484398,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−フィールド逃げ率 +ライン支配率 −得点偏差×ライン強 −得点順位 +grade_x_line_str"
         },
         "7": {
-          "probability": 0.19780219990679693,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.11873351090686485,
+          "probability": 0.300847460442292,
+          "win_probability": 0.08647767360375586,
+          "prob_2nd": 0.061946904229708825,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +先頭選手得点 −得点偏差 +ライン総合力"
+          "shap_reason": "−得点順位 −得点偏差 −フィールド逃げ率 −得点偏差×ライン強 −ライン支配率"
         },
         "6": {
-          "probability": 0.15277777976608012,
+          "probability": 0.2763157919788653,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.028735633674148234,
+          "prob_3rd": 0.2041526585115363,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "−得点順位 −フィールド逃げ率 −得点偏差×ライン強 +ライン支配率 +grade_x_line_str"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "3-1-2",
-          "score": 0.027578944768947296
+          "combo": "1-2-4",
+          "score": 0.043291626942125364
         },
         {
           "rank": 2,
-          "combo": "1-3-2",
-          "score": 0.024448423842294526
+          "combo": "1-2-3",
+          "score": 0.03436454226618307
         },
         {
           "rank": 3,
-          "combo": "3-4-2",
-          "score": 0.0227048134811704
+          "combo": "4-5-6",
+          "score": 0.03434073045317882
         },
         {
           "rank": 4,
-          "combo": "3-2-1",
-          "score": 0.021921833035088552
+          "combo": "1-2-7",
+          "score": 0.02779844115405031
         },
         {
           "rank": 5,
-          "combo": "1-2-3",
-          "score": 0.021736772076290146
+          "combo": "1-2-5",
+          "score": 0.025736362980219682
         },
         {
           "rank": 6,
-          "combo": "1-4-2",
-          "score": 0.021583012391473436
+          "combo": "4-1-2",
+          "score": 0.01867840338084677
         },
         {
           "rank": 7,
-          "combo": "1-2-4",
-          "score": 0.019085593157218556
+          "combo": "4-5-2",
+          "score": 0.015333564601075503
         },
         {
           "rank": 8,
-          "combo": "3-2-4",
-          "score": 0.018275613832896265
+          "combo": "4-5-1",
+          "score": 0.009153402896337733
         }
       ]
     },
@@ -22218,28 +22366,11 @@
       "payout_trifecta": null,
       "line_power": [],
       "rationale": [
-        "【1】3-2-1　紐(1)：近走重視の平均着順が良好",
-        "【2】1-3-2　1着(1)：近走重視の平均着順が良好／ライン力に乗って地力差が活きる",
-        "【3】3-1-2　2着(1)：近走重視の平均着順が良好"
+        "【1】1-2-3　1着(1)：ライン力に乗って地力差が活きる／近走重視の平均着順が良好　2着(2)：実力差がライン強度でさらに際立つ　紐(3)：メンバー構成的に先行有利",
+        "【2】1-2-5 （同上）",
+        "【3】1-2-4 （同上）"
       ],
       "formation": [
-        {
-          "firsts": [
-            1,
-            3
-          ],
-          "seconds": [
-            1,
-            2,
-            3
-          ],
-          "thirds": [
-            1,
-            2
-          ],
-          "n_combos": 3,
-          "text": "13-123-12"
-        },
         {
           "firsts": [
             1
@@ -22249,10 +22380,37 @@
           ],
           "thirds": [
             3,
-            4
+            4,
+            5
           ],
-          "n_combos": 2,
-          "text": "1-2-34"
+          "n_combos": 3,
+          "text": "1-2-345"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
+            3
+          ],
+          "thirds": [
+            2
+          ],
+          "n_combos": 1,
+          "text": "1-3-2"
+        },
+        {
+          "firsts": [
+            2
+          ],
+          "seconds": [
+            1
+          ],
+          "thirds": [
+            5
+          ],
+          "n_combos": 1,
+          "text": "2-1-5"
         }
       ],
       "entries": [
@@ -22263,7 +22421,7 @@
           "rider_full_name": "下条未悠",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 25,
           "prefecture": "富山",
@@ -22278,7 +22436,7 @@
           "rider_full_name": "板根茜弥",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "東京",
@@ -22293,7 +22451,7 @@
           "rider_full_name": "中野咲",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 29,
           "prefecture": "愛知",
@@ -22308,7 +22466,7 @@
           "rider_full_name": "野口諭実可",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "5-1",
           "journalist_mark": null,
           "age": 34,
           "prefecture": "大分",
@@ -22323,7 +22481,7 @@
           "rider_full_name": "渡部遥",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "6-1",
           "journalist_mark": null,
           "age": 24,
           "prefecture": "愛媛",
@@ -22338,7 +22496,7 @@
           "rider_full_name": "北津留千羽",
           "class_rank": null,
           "running_style": "両",
-          "line_position": null,
+          "line_position": "7-1",
           "journalist_mark": null,
           "age": 20,
           "prefecture": "福岡",
@@ -22353,7 +22511,7 @@
           "rider_full_name": "向井円",
           "class_rank": null,
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 32,
           "prefecture": "大阪",
@@ -22364,87 +22522,87 @@
       ],
       "predictions": {
         "1": {
-          "probability": 0.9302325670690074,
-          "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
+          "probability": 0.9302325670007715,
+          "win_probability": 0.20178848763578958,
+          "prob_2nd": 0.22222222409478354,
           "prob_3rd": 0.1433789971831358,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 +先頭選手得点 −ライン力(加重) +減衰加重平均着順 +得点偏差×ライン強"
-        },
-        "3": {
-          "probability": 0.6290322645200853,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) −grade_x_line_str +ライン総合力 +得点順位"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +減衰加重平均着順 −ラウンド +ライン支配率"
         },
         "2": {
-          "probability": 0.6290322643832462,
-          "win_probability": 0.14498827473155315,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.6562500066682087,
+          "win_probability": 0.12039127467043048,
+          "prob_2nd": 0.23342939677338873,
+          "prob_3rd": 0.2519083988543822,
+          "predicted_rank": 2.0,
+          "shap_reason": "+得点順位 −ラウンド +ライン総合力 +得点偏差×ライン強 +対戦相手の質"
+        },
+        "3": {
+          "probability": 0.5764705938362228,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.22222222407861475,
+          "prob_3rd": 0.2519083988543822,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 +ライン総合力 +得点偏差 +フィールド逃げ率 +先頭選手得点"
         },
         "5": {
-          "probability": 0.5581395400625908,
+          "probability": 0.30084746045791183,
           "win_probability": 0.08664107082937327,
           "prob_2nd": 0.061946904243387085,
           "prob_3rd": 0.20212766137181012,
           "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 −grade_x_line_str −得点順位"
+          "shap_reason": "−得点順位 −ライン力(加重) +フィールド平均得点 −ラウンド −ライン支配率"
         },
         "4": {
-          "probability": 0.5028248632733128,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.3008474606308994,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.20212766139971441,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 −grade_x_line_str −ラウンド"
+          "shap_reason": "−ラウンド −ライン支配率 −得点偏差×ライン強 −ライン力(加重) +ライン総合力"
         },
         "6": {
-          "probability": 0.2763157921261489,
+          "probability": 0.19780219983357494,
           "win_probability": 0.08664107082937327,
           "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.14337899717171368,
+          "prob_3rd": 0.0980392173115737,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +先頭選手得点 −grade_x_line_str +ライン総合力"
+          "shap_reason": "−得点順位 −ライン力(加重) −ラウンド +ライン総合力 −得点偏差×ライン強"
         },
         "7": {
-          "probability": 0.1333333349423795,
+          "probability": 0.03448275932890417,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.02453987868556026,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点順位 −grade_x_line_str +ライン支配率 +先頭選手得点"
+          "shap_reason": "−ライン力(加重) −得点順位 −grade_x_line_str −得点偏差 −得点偏差×ライン強"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "3-2-1",
-          "score": 0.021207082635233895
+          "combo": "1-2-3",
+          "score": 0.05058239701833692
         },
         {
           "rank": 2,
-          "combo": "1-3-2",
-          "score": 0.020835952484846498
+          "combo": "1-2-5",
+          "score": 0.04121000900035243
         },
         {
           "rank": 3,
-          "combo": "3-1-2",
-          "score": 0.02068499009674068
+          "combo": "1-2-4",
+          "score": 0.038760151376773216
         },
         {
           "rank": 4,
-          "combo": "1-2-3",
-          "score": 0.020120721221636415
+          "combo": "1-3-2",
+          "score": 0.03821439756637933
         },
         {
           "rank": 5,
-          "combo": "1-2-4",
-          "score": 0.014336758568421384
+          "combo": "2-1-5",
+          "score": 0.026272922134770005
         }
       ]
     },
@@ -22464,35 +22622,60 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "① ██░░░░░░░░  23",
-        "② ██░░░░░░░░  19",
-        "③ ██░░░░░░░░  15",
-        "④ ██░░░░░░░░  15",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "④① ████░░░░░░  40",
+        "③⑤ ██░░░░░░░░  23",
+        "⑥⑦ ██░░░░░░░░  19",
+        "②　 ██░░░░░░░░  18"
       ],
       "rationale": [
-        "【1】1-2-3　1着(1)：強力ラインを背に得点差が効く　2着(2)：近走重視の平均着順が良好",
-        "【2】1-2-4 （同上）",
-        "【3】2-1-3　番手差し(2)：近走重視の平均着順が良好　2着(1)：強力ラインを背に得点差が効く"
+        "【1】1-4-2　1着(1)：強力ラインを背に得点差が効く　2着(4)：格上相手にも崩れない実績　紐(2)：近走重視の平均着順が良好",
+        "【2】4-1-2　番手差し(4)：格上相手にも崩れない実績",
+        "【3】1-4-3　紐(3)：格上相手にも崩れない実績"
       ],
       "formation": [
         {
           "firsts": [
-            1,
-            2
+            1
           ],
           "seconds": [
-            1,
+            4
+          ],
+          "thirds": [
+            2,
+            3,
+            6
+          ],
+          "n_combos": 3,
+          "text": "1-4-236"
+        },
+        {
+          "firsts": [
+            4
+          ],
+          "seconds": [
+            1
+          ],
+          "thirds": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "n_combos": 4,
+          "text": "4-1-2356"
+        },
+        {
+          "firsts": [
+            1
+          ],
+          "seconds": [
             2
           ],
           "thirds": [
-            3,
             4
           ],
-          "n_combos": 8,
-          "text": "12-12=34"
+          "n_combos": 1,
+          "text": "1-2-4"
         }
       ],
       "entries": [
@@ -22503,7 +22686,7 @@
           "rider_full_name": "松永真太",
           "class_rank": "A3",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 44,
           "prefecture": "福岡",
@@ -22518,7 +22701,7 @@
           "rider_full_name": "松本悠平",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 23,
           "prefecture": "高知",
@@ -22533,7 +22716,7 @@
           "rider_full_name": "坂井央雅",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 20,
           "prefecture": "岐阜",
@@ -22548,7 +22731,7 @@
           "rider_full_name": "高佐龍太郎",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 23,
           "prefecture": "宮崎",
@@ -22563,7 +22746,7 @@
           "rider_full_name": "山村慮太",
           "class_rank": "A3",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "大阪",
@@ -22578,7 +22761,7 @@
           "rider_full_name": "半田莉都",
           "class_rank": "A3",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 19,
           "prefecture": "熊本",
@@ -22593,7 +22776,7 @@
           "rider_full_name": "吉成晃一",
           "class_rank": "A3",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "4-2",
           "journalist_mark": null,
           "age": 40,
           "prefecture": "熊本",
@@ -22603,103 +22786,103 @@
         }
       ],
       "predictions": {
-        "2": {
-          "probability": 0.7548638209330396,
-          "win_probability": 0.17149233650090995,
+        "3": {
+          "probability": 0.7548638202342014,
+          "win_probability": 0.10990080115212067,
           "prob_2nd": 0.17553191670587626,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +得点順位 +ライン総合力 +減衰加重平均着順"
+          "shap_reason": "−ラウンド +得点順位 +対戦相手の質 +役割別出走数 +期別"
         },
-        "3": {
-          "probability": 0.5764705938178334,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
+        "2": {
+          "probability": 0.6290322646455379,
+          "win_probability": 0.15210671770258463,
+          "prob_2nd": 0.10045662275866307,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 2.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) −ラウンド −grade_x_line_str +ライン総合力"
+          "shap_reason": "+得点順位 −ライン支配率 +ライン総合力 −ラウンド +減衰加重平均着順"
         },
         "1": {
-          "probability": 0.7500000068042285,
+          "probability": 0.6290322644019918,
           "win_probability": 0.20178848763578958,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 3.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 −ラウンド +ライン支配率 −フィールド逃げ率"
         },
         "4": {
-          "probability": 0.5581395398375346,
+          "probability": 0.6290322643983977,
           "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
+          "prob_2nd": 0.22222222409478354,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 4.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) −grade_x_line_str +ライン総合力 −ラウンド"
-        },
-        "6": {
-          "probability": 0.36866359821978256,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.11873351090686485,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 +ライン支配率"
+          "shap_reason": "−ラウンド +grade_x_line_str +対戦相手の質 −フィールド逃げ率 +得点偏差×ライン強"
         },
         "5": {
-          "probability": 0.27631579202163375,
+          "probability": 0.22500000239015253,
           "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.20212766137181012,
+          "prob_2nd": 0.10045662268779419,
+          "prob_3rd": 0.14337899720484398,
+          "predicted_rank": 5.0,
+          "shap_reason": "−ラウンド −フィールド逃げ率 −得点偏差×ライン強 −得点順位 +grade_x_line_str"
+        },
+        "6": {
+          "probability": 0.3008474606905893,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.06194690424222757,
+          "prob_3rd": 0.11873351091614119,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 −得点順位 −ラウンド"
+          "shap_reason": "−得点順位 −得点偏差×ライン強 −ラウンド +役割別出走数 +期別"
         },
         "7": {
-          "probability": 0.13333333510446685,
+          "probability": 0.1073825516760438,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904229708825,
+          "prob_3rd": 0.06451613060010036,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +先頭選手得点 −得点偏差×ライン強 +ライン支配率"
+          "shap_reason": "−得点順位 −得点偏差 −ラウンド −得点偏差×ライン強 −フィールド逃げ率"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "1-2-3",
-          "score": 0.02770051778425628
+          "combo": "1-4-2",
+          "score": 0.04627468596957548
         },
         {
           "rank": 2,
-          "combo": "1-2-4",
-          "score": 0.027563866044047532
+          "combo": "4-1-2",
+          "score": 0.036522987805456576
         },
         {
           "rank": 3,
-          "combo": "2-1-3",
-          "score": 0.02263820658236614
+          "combo": "1-4-3",
+          "score": 0.0303335483186903
         },
         {
           "rank": 4,
-          "combo": "1-3-2",
-          "score": 0.022390386497504168
+          "combo": "4-1-3",
+          "score": 0.024672491513394266
         },
         {
           "rank": 5,
-          "combo": "2-1-4",
-          "score": 0.021940232648953766
+          "combo": "1-4-6",
+          "score": 0.023453921527713785
         },
         {
           "rank": 6,
-          "combo": "1-4-2",
-          "score": 0.020922237356390556
+          "combo": "1-2-4",
+          "score": 0.022951603039938172
         },
         {
           "rank": 7,
-          "combo": "2-3-1",
-          "score": 0.018739309662205467
+          "combo": "4-1-6",
+          "score": 0.01936308187548424
         },
         {
           "rank": 8,
-          "combo": "2-4-1",
-          "score": 0.018414761434625056
+          "combo": "4-1-5",
+          "score": 0.01520463381955365
         }
       ]
     },
@@ -22719,18 +22902,15 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  22",
-        "① ██░░░░░░░░  20",
-        "③ ██░░░░░░░░  18",
-        "④ █░░░░░░░░░  10",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░  10",
-        "⑦ █░░░░░░░░░  10"
+        "②① ████░░░░░░  44",
+        "④⑤ ██░░░░░░░░  21",
+        "⑥⑦ ██░░░░░░░░  21",
+        "③　 █░░░░░░░░░  13"
       ],
       "rationale": [
-        "【1】2-1-3　1着(2)：近走重視の平均着順が良好　2着(1)：強力ラインを背に得点差が効く",
-        "【2】2-1-6 （同上）",
-        "【3】2-1-4　紐(4)：場を支配しやすい強力ライン"
+        "【1】2-1-3　1着(2)：実力差がライン強度でさらに際立つ／近走重視の平均着順が良好　紐(3)：単独でも勝負できる独走力",
+        "【2】2-1-5 （同上）",
+        "【3】2-1-6　紐(6)：格上戦ほどライン勝負が効く"
       ],
       "formation": [
         {
@@ -22745,25 +22925,11 @@
           "thirds": [
             3,
             4,
+            5,
             6
           ],
-          "n_combos": 6,
-          "text": "12-12-346"
-        },
-        {
-          "firsts": [
-            1,
-            2
-          ],
-          "seconds": [
-            3
-          ],
-          "thirds": [
-            1,
-            2
-          ],
-          "n_combos": 2,
-          "text": "12-3-12"
+          "n_combos": 8,
+          "text": "12-12-3456"
         }
       ],
       "entries": [
@@ -22774,7 +22940,7 @@
           "rider_full_name": "山田敦也",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 43,
           "prefecture": "北海",
@@ -22789,7 +22955,7 @@
           "rider_full_name": "三神遼矢",
           "class_rank": "A2",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 24,
           "prefecture": "福島",
@@ -22804,7 +22970,7 @@
           "rider_full_name": "高間悠平",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 38,
           "prefecture": "福井",
@@ -22819,7 +22985,7 @@
           "rider_full_name": "下岡優季",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 36,
           "prefecture": "愛知",
@@ -22834,7 +23000,7 @@
           "rider_full_name": "鷲見逸喜",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-2",
           "journalist_mark": null,
           "age": 48,
           "prefecture": "岐阜",
@@ -22849,7 +23015,7 @@
           "rider_full_name": "福田健太",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 25,
           "prefecture": "宮城",
@@ -22864,7 +23030,7 @@
           "rider_full_name": "外崎一成",
           "class_rank": "A2",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "4-2",
           "journalist_mark": null,
           "age": 39,
           "prefecture": "北海",
@@ -22875,102 +23041,102 @@
       ],
       "predictions": {
         "2": {
-          "probability": 0.8125000085040297,
+          "probability": 0.9302325670399764,
           "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
+          "prob_2nd": 0.1486486504472564,
           "prob_3rd": 0.04166666813417234,
           "predicted_rank": 1.0,
-          "shap_reason": "+得点順位 +先頭選手得点 +減衰加重平均着順 −ライン力(加重) +ライン総合力"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 +減衰加重平均着順 −ラウンド +近10走1着率"
         },
         "1": {
-          "probability": 0.656250006689766,
+          "probability": 0.7548638202890284,
           "win_probability": 0.15691415166600878,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 2.0,
-          "shap_reason": "+得点順位 −ライン力(加重) +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
+          "shap_reason": "+得点順位 +得点偏差×ライン強 −ラウンド +ライン支配率 +ライン力(加重)"
         },
         "3": {
-          "probability": 0.5028248633765988,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.47368421483978224,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.09433962428319621,
+          "prob_3rd": 0.1433789972260607,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +得点順位"
-        },
-        "6": {
-          "probability": 0.5028248635864043,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.11873351090686485,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −得点順位 −ラウンド"
+          "shap_reason": "−ライン支配率 +得点順位 +ライン総合力 +solo_score −ラウンド"
         },
         "4": {
-          "probability": 0.4761904806369592,
+          "probability": 0.27631579206134865,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.1004566226639404,
+          "prob_2nd": 0.1486486504066059,
           "prob_3rd": 0.14337899715923547,
+          "predicted_rank": 4.0,
+          "shap_reason": "−得点偏差×ライン強 −ラウンド −開催日序数 −ライン支配率 −得点順位"
+        },
+        "6": {
+          "probability": 0.1978021999240025,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.061946904229708825,
+          "prob_3rd": 0.11873351091614119,
           "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 +ライン支配率 +B回数"
+          "shap_reason": "−得点順位 −ラウンド −得点偏差×ライン強 −開催日序数 +grade_x_line_str"
         },
         "5": {
-          "probability": 0.3008474606374992,
+          "probability": 0.2763157920893144,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
+          "prob_2nd": 0.1486486504066059,
+          "prob_3rd": 0.12878788049930456,
           "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +ライン支配率"
+          "shap_reason": "−得点偏差×ライン強 −ラウンド −ライン支配率 −得点順位 −開催日序数"
         },
         "7": {
-          "probability": 0.19780219997272427,
+          "probability": 0.10738255176123558,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.10045662270737431,
-          "prob_3rd": 0.14337899717171368,
+          "prob_2nd": 0.061946904229708825,
+          "prob_3rd": 0.11873351087133356,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) −得点偏差 +先頭選手得点 −得点順位 +ライン総合力"
+          "shap_reason": "−得点偏差 −得点順位 −得点偏差×ライン強 −ラウンド +2番手得点差"
         }
       },
       "recommendations": [
         {
           "rank": 1,
           "combo": "2-1-3",
-          "score": 0.03518499501680356
+          "score": 0.07410197009892164
         },
         {
           "rank": 2,
-          "combo": "2-1-6",
-          "score": 0.03206625869751741
+          "combo": "2-1-5",
+          "score": 0.05526812602606808
         },
         {
           "rank": 3,
-          "combo": "2-1-4",
-          "score": 0.029169199851803405
+          "combo": "2-1-6",
+          "score": 0.04591506521547538
         },
         {
           "rank": 4,
-          "combo": "2-3-1",
-          "score": 0.028785697379798386
+          "combo": "2-1-4",
+          "score": 0.04583511721850763
         },
         {
           "rank": 5,
           "combo": "1-2-3",
-          "score": 0.026574757416212843
+          "score": 0.036344513071433764
         },
         {
           "rank": 6,
-          "combo": "1-2-6",
-          "score": 0.02304148221946771
+          "combo": "1-2-5",
+          "score": 0.03279174942866921
         },
         {
           "rank": 7,
           "combo": "1-2-4",
-          "score": 0.021170883563030114
+          "score": 0.029225761900834108
         },
         {
           "rank": 8,
-          "combo": "1-3-2",
-          "score": 0.011762785463708418
+          "combo": "1-2-6",
+          "score": 0.025360732112043406
         }
       ]
     },
@@ -22990,35 +23156,48 @@
       "payout_trifecta": null,
       "line_power": [
         "▼ラインパワー",
-        "② ██░░░░░░░░  20",
-        "① ██░░░░░░░░  19",
-        "③ ██░░░░░░░░  16",
-        "④ ██░░░░░░░░  16",
-        "⑤ █░░░░░░░░░  10",
-        "⑥ █░░░░░░░░░   9",
-        "⑦ █░░░░░░░░░   9"
+        "①⑦③ ████░░░░░░  44",
+        "②⑥　 ███░░░░░░░  31",
+        "④　　 █░░░░░░░░░  13",
+        "⑤　　 █░░░░░░░░░  12"
       ],
       "rationale": [
-        "【1】2-1-3　2着(1)：実力差がライン強度でさらに際立つ",
-        "【2】2-1-4 （同上）",
-        "【3】2-4-1　紐(1)：実力差がライン強度でさらに際立つ"
+        "【1】1-7-3　1着(1)：実力差がライン強度でさらに際立つ　2着(7)：2番手格に対して地力が上",
+        "【2】2-6-1　1着(2)：格上戦ほどライン勝負が効く　2着(6)：番手相手に得点で勝る",
+        "【3】1-7-2 （同上）"
       ],
       "formation": [
         {
           "firsts": [
-            1,
+            1
+          ],
+          "seconds": [
+            7
+          ],
+          "thirds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_combos": 4,
+          "text": "1-7-2345"
+        },
+        {
+          "firsts": [
             2
           ],
           "seconds": [
-            1,
-            2
+            6
           ],
           "thirds": [
-            3,
-            4
+            1,
+            4,
+            5,
+            7
           ],
-          "n_combos": 8,
-          "text": "12-12=34"
+          "n_combos": 4,
+          "text": "2-6-1457"
         }
       ],
       "entries": [
@@ -23029,7 +23208,7 @@
           "rider_full_name": "林敬宏",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-1",
           "journalist_mark": null,
           "age": 34,
           "prefecture": "愛知",
@@ -23044,7 +23223,7 @@
           "rider_full_name": "長野魅切",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "2-1",
           "journalist_mark": null,
           "age": 23,
           "prefecture": "愛媛",
@@ -23059,7 +23238,7 @@
           "rider_full_name": "西村豊",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "1-3",
           "journalist_mark": null,
           "age": 46,
           "prefecture": "三重",
@@ -23074,7 +23253,7 @@
           "rider_full_name": "肥後尚己",
           "class_rank": "A1",
           "running_style": "追",
-          "line_position": null,
+          "line_position": "3-1",
           "journalist_mark": null,
           "age": 49,
           "prefecture": "大阪",
@@ -23089,7 +23268,7 @@
           "rider_full_name": "野口大誠",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "4-1",
           "journalist_mark": null,
           "age": 37,
           "prefecture": "熊本",
@@ -23104,7 +23283,7 @@
           "rider_full_name": "岩本純",
           "class_rank": "A1",
           "running_style": "両",
-          "line_position": null,
+          "line_position": "2-2",
           "journalist_mark": null,
           "age": 45,
           "prefecture": "岡山",
@@ -23119,7 +23298,7 @@
           "rider_full_name": "大谷靖茂",
           "class_rank": "A1",
           "running_style": "逃",
-          "line_position": null,
+          "line_position": "1-2",
           "journalist_mark": null,
           "age": 44,
           "prefecture": "愛知",
@@ -23130,102 +23309,102 @@
       ],
       "predictions": {
         "2": {
-          "probability": 0.7548638208606913,
-          "win_probability": 0.17149233650090995,
-          "prob_2nd": 0.17553191670587626,
+          "probability": 0.5764705941817279,
+          "win_probability": 0.15210671770258463,
+          "prob_2nd": 0.10045662275866307,
           "prob_3rd": 0.14337899715923547,
           "predicted_rank": 1.0,
-          "shap_reason": "+先頭選手得点 −ライン力(加重) +得点順位 +ライン総合力 −grade_x_line_str"
+          "shap_reason": "+得点順位 −ラウンド −ライン支配率 −escape_lead_prob +grade_x_line_str"
         },
         "1": {
-          "probability": 0.6562500066652771,
-          "win_probability": 0.1592219172084572,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.14337899715923547,
+          "probability": 0.5028248633492419,
+          "win_probability": 0.15691415166600878,
+          "prob_2nd": 0.22222222409478354,
+          "prob_3rd": 0.12658228017470757,
           "predicted_rank": 2.0,
-          "shap_reason": "−ライン力(加重) +得点順位 +先頭選手得点 +ライン総合力 +得点偏差×ライン強"
+          "shap_reason": "+得点順位 −ラウンド +得点偏差×ライン強 −escape_lead_prob −スターター候補"
         },
         "3": {
-          "probability": 0.476190480581313,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.17553191670587626,
-          "prob_3rd": 0.1433789971831358,
+          "probability": 0.5028248633829493,
+          "win_probability": 0.08887774597087078,
+          "prob_2nd": 0.10045662271702704,
+          "prob_3rd": 0.2519083988460868,
           "predicted_rank": 3.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str +得点順位"
-        },
-        "4": {
-          "probability": 0.36866359835993295,
-          "win_probability": 0.13697114789882156,
-          "prob_2nd": 0.1004566226639404,
-          "prob_3rd": 0.1433789971831358,
-          "predicted_rank": 4.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン総合力 −grade_x_line_str −得点順位"
-        },
-        "5": {
-          "probability": 0.368663598078042,
-          "win_probability": 0.08664107082937327,
-          "prob_2nd": 0.061946904243387085,
-          "prob_3rd": 0.20212766137181012,
-          "predicted_rank": 5.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 +ライン支配率 −得点順位 +ライン総合力"
-        },
-        "6": {
-          "probability": 0.3008474606815801,
-          "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.028735633674361407,
-          "prob_3rd": 0.14337899717171368,
-          "predicted_rank": 6.0,
-          "shap_reason": "−ライン力(加重) −得点順位 +ライン総合力 +先頭選手得点 −grade_x_line_str"
+          "shap_reason": "+ライン支配率 −ライン位置 +得点順位 −ラウンド −開催日序数"
         },
         "7": {
-          "probability": 0.27631579203125756,
+          "probability": 0.36866359815960675,
           "win_probability": 0.07885121081361618,
-          "prob_2nd": 0.02453987868556026,
+          "prob_2nd": 0.10045662270737431,
           "prob_3rd": 0.11873351090686485,
+          "predicted_rank": 4.0,
+          "shap_reason": "−得点順位 −得点偏差 +ライン支配率 −得点偏差×ライン強 +2番手得点差"
+        },
+        "6": {
+          "probability": 0.3686635980639742,
+          "win_probability": 0.07885121081361618,
+          "prob_2nd": 0.10045662268779419,
+          "prob_3rd": 0.11873351091614119,
+          "predicted_rank": 5.0,
+          "shap_reason": "−得点順位 −得点偏差×ライン強 −ライン支配率 −ラウンド +2番手得点差"
+        },
+        "4": {
+          "probability": 0.2250000023318587,
+          "win_probability": 0.09704939654153773,
+          "prob_2nd": 0.09433962428319621,
+          "prob_3rd": 0.1433789972260607,
+          "predicted_rank": 6.0,
+          "shap_reason": "−ライン支配率 −ライン力(加重) +得点偏差 −ラウンド +ライン総合力"
+        },
+        "5": {
+          "probability": 0.22500000240337076,
+          "win_probability": 0.08664107082937327,
+          "prob_2nd": 0.061946904243387085,
+          "prob_3rd": 0.12878788049930456,
           "predicted_rank": 7.0,
-          "shap_reason": "−ライン力(加重) +先頭選手得点 −得点順位 +ライン総合力 −得点偏差×ライン強"
+          "shap_reason": "−ライン支配率 −得点順位 −得点偏差×ライン強 −ラウンド +ライン総合力"
         }
       },
       "recommendations": [
         {
           "rank": 1,
-          "combo": "2-1-3",
-          "score": 0.02429834936020607
+          "combo": "1-7-3",
+          "score": 0.053397049432389515
         },
         {
           "rank": 2,
-          "combo": "2-1-4",
-          "score": 0.021632722322374155
+          "combo": "2-6-1",
+          "score": 0.04320445190557721
         },
         {
           "rank": 3,
-          "combo": "2-4-1",
-          "score": 0.0209182170657796
+          "combo": "1-7-2",
+          "score": 0.030437016294940035
         },
         {
           "rank": 4,
-          "combo": "2-3-1",
-          "score": 0.02025186509669746
+          "combo": "1-7-5",
+          "score": 0.023263993649458876
         },
         {
           "rank": 5,
-          "combo": "1-2-3",
-          "score": 0.020226489168765443
+          "combo": "1-7-4",
+          "score": 0.02315269194841317
         },
         {
           "rank": 6,
-          "combo": "1-3-2",
-          "score": 0.01898312724991165
+          "combo": "2-6-5",
+          "score": 0.022435357921616914
         },
         {
           "rank": 7,
-          "combo": "1-2-4",
-          "score": 0.018013311080104608
+          "combo": "2-6-4",
+          "score": 0.022038796130261402
         },
         {
           "rank": 8,
-          "combo": "1-4-2",
-          "score": 0.014143521109826558
+          "combo": "2-6-7",
+          "score": 0.02184509288200569
         }
       ]
     }
